@@ -1,0 +1,2 @@
+#Merge Empty Components ItemStack to Non Components ItemStack
+isMergeItemStack = true

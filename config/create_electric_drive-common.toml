@@ -1,0 +1,70 @@
+# Motor Config
+# Produced Stress: Stress produced when rotational speed is 1[su]
+# Consumed Energy: Energy consumed per tick when rotational speed is 1[su]
+# Max Capacity: Maximum capacity of the motor (required consumedEnergy * 256 or more)
+# Max Receive: Maximum energy transfer per tick to the motor (required consumedEnergy * 256 or more)
+#
+# Basic: Stress produced at rotational speed 1
+# Default: 16
+# Range: > 0
+producedStressBasic = 16
+# Basic: Energy consumed per tick at rotational speed 1
+# Default: 8
+# Range: > 0
+consumedEnergyBasic = 8
+# Basic: Maximum capacity of the motor (required consumedEnergy or more)
+# Default: 4096
+# Range: > 0
+maxCapacityBasic = 4096
+# Basic: Maximum energy transfer per tick to the motor (required consumedEnergy or more)
+# Default: 4096
+# Range: > 0
+maxReceiveBasic = 4096
+# Advanced: Stress produced at rotational speed 1
+# Default: 32
+# Range: > 0
+producedStressAdvanced = 32
+# Advanced: Energy consumed per tick at rotational speed 1
+# Default: 16
+# Range: > 0
+consumedEnergyAdvanced = 16
+# Advanced: Maximum capacity of the motor (required consumedEnergy or more)
+# Default: 8192
+# Range: > 0
+maxCapacityAdvanced = 8192
+# Advanced: Maximum energy transfer per tick to the motor (required consumedEnergy or more)
+# Default: 8192
+# Range: > 0
+maxReceiveAdvanced = 8192
+# Innovative: Stress produced at rotational speed 1
+# Default: 64
+# Range: > 0
+producedStressInnovative = 64
+# Innovative: Energy consumed per tick at rotational speed 1
+# Default: 32
+# Range: > 0
+consumedEnergyInnovative = 32
+# Innovative: Maximum capacity of the motor (required consumedEnergy or more)
+# Default: 16384
+# Range: > 0
+maxCapacityInnovative = 16384
+# Innovative: Maximum energy transfer per tick to the motor (required consumedEnergy or more)
+# Default: 16384
+# Range: > 0
+maxReceiveInnovative = 16384
+# Ultimate: Stress produced at rotational speed 1
+# Default: 512
+# Range: > 0
+producedStressUltimate = 512
+# Ultimate: Energy consumed per tick at rotational speed 1
+# Default: 64
+# Range: > 0
+consumedEnergyUltimate = 64
+# Ultimate: Maximum capacity of the motor (required consumedEnergy or more)
+# Default: 32768
+# Range: > 0
+maxCapacityUltimate = 32768
+# Ultimate: Maximum energy transfer per tick to the motor (required consumedEnergy or more)
+# Default: 32768
+# Range: > 0
+maxReceiveUltimate = 32768

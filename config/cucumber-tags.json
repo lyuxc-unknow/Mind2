@@ -1,0 +1,15 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "c:gems/sapphire": "moremekanismprocessing:gem_sapphire",
+  "c:silicon": "ae2:silicon",
+  "c:gems/apatite": "moremekanismprocessing:gem_apatite",
+  "c:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
+  "c:ingots/platinum": "moremekanismprocessing:platinum_ingot",
+  "c:ingots/graphite": "null",
+  "c:ingots/iridium": "moremekanismprocessing:iridium_ingot",
+  "c:ingots/invar": "null",
+  "c:gems/ruby": "moremekanismprocessing:gem_ruby",
+  "c:dusts/niter": "moremekanismprocessing:dust_niter",
+  "c:rubbers": "null",
+  "c:gems/peridot": "moremekanismprocessing:gem_peridot"
+}

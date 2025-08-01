@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0402AE762120F6AE"
+	group: "3AFB50ADED3F1DA4"
+	id: "0402AE762120F6AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6BB68B678E6DCF89"
+			rewards: [{
+				id: "17E64CF53FB3F051"
+				item: {
+					components: {
+						"minecraft:container": [
+							{
+								item: {
+									components: {
+										"minecraft:custom_data": {
+											bc_managed_data: {
+												converted_fuel: 1426.8448747227485d
+												reactable_fuel: 8941.155125276795d
+											}
+										}
+									}
+									count: 1
+									id: "draconicevolution:reactor_core"
+								}
+								slot: 0
+							}
+							{
+								item: {
+									count: 4
+									id: "draconicevolution:reactor_stabilizer"
+								}
+								slot: 1
+							}
+							{
+								item: {
+									count: 64
+									id: "draconicevolution:draconium_block"
+								}
+								slot: 2
+							}
+							{
+								item: {
+									count: 2
+									id: "draconicevolution:energy_pylon"
+								}
+								slot: 3
+							}
+							{
+								item: {
+									count: 64
+									id: "minecraft:redstone_block"
+								}
+								slot: 4
+							}
+							{
+								item: {
+									count: 64
+									id: "minecraft:redstone_block"
+								}
+								slot: 5
+							}
+							{
+								item: {
+									count: 64
+									id: "minecraft:redstone_block"
+								}
+								slot: 6
+							}
+							{
+								item: {
+									count: 64
+									id: "minecraft:redstone_block"
+								}
+								slot: 7
+							}
+							{
+								item: {
+									count: 64
+									id: "minecraft:redstone_block"
+								}
+								slot: 8
+							}
+							{
+								item: {
+									count: 8
+									id: "minecraft:redstone_block"
+								}
+								slot: 9
+							}
+							{
+								item: {
+									count: 1
+									id: "draconicevolution:reactor_injector"
+								}
+								slot: 10
+							}
+							{
+								item: {
+									count: 64
+									id: "draconicevolution:draconium_block"
+								}
+								slot: 11
+							}
+							{
+								item: {
+									count: 64
+									id: "draconicevolution:draconium_block"
+								}
+								slot: 12
+							}
+							{
+								item: {
+									count: 14
+									id: "draconicevolution:draconium_block"
+								}
+								slot: 13
+							}
+							{
+								item: {
+									count: 5
+									id: "draconicevolution:awakened_draconium_ingot"
+								}
+								slot: 14
+							}
+							{
+								item: {
+									count: 2
+									id: "draconicevolution:flux_gate"
+								}
+								slot: 15
+							}
+							{
+								item: {
+									count: 36
+									id: "draconicevolution:energy_core_stabilizer"
+								}
+								slot: 16
+							}
+							{
+								item: {
+									components: {
+										"mekanism:energy": {
+											energy_containers: [L;256000000L]
+										}
+									}
+									count: 1
+									id: "mekanism:ultimate_energy_cube"
+								}
+								slot: 17
+							}
+							{
+								item: {
+									count: 4
+									id: "draconicevolution:wyvern_io_crystal"
+								}
+								slot: 18
+							}
+							{
+								item: {
+									count: 1
+									id: "draconicevolution:crystal_binder"
+								}
+								slot: 19
+							}
+						]
+					}
+					count: 1
+					id: "minecraft:shulker_box"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "685DD22B2D263DDF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "2D23738038A5348F"
+			rewards: [{
+				command: "/astages add @p generator_stage"
+				id: "26206AE88F76A7BE"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3755468183F5C0B7"
+				item: { components: { "minecraft:container": [ { item: { components: { "minecraft:custom_data": { bc_managed_data: { converted_fuel: 1426.8448747227485d, reactable_fuel: 8941.155125276795d } } }, count: 1, id: "draconicevolution:reactor_core" }, slot: 0 }, { item: { count: 4, id: "draconicevolution:reactor_stabilizer" }, slot: 1 }, { item: { count: 64, id: "draconicevolution:draconium_block" }, slot: 2 }, { item: { count: 2, id: "draconicevolution:energy_pylon" }, slot: 3 }, { item: { count: 64, id: "minecraft:redstone_block" }, slot: 4 }, { item: { count: 64, id: "minecraft:redstone_block" }, slot: 5 }, { item: { count: 64, id: "minecraft:redstone_block" }, slot: 6 }, { item: { count: 64, id: "minecraft:redstone_block" }, slot: 7 }, { item: { count: 64, id: "minecraft:redstone_block" }, slot: 8 }, { item: { count: 8, id: "minecraft:redstone_block" }, slot: 9 }, { item: { count: 1, id: "draconicevolution:reactor_injector" }, slot: 10 }, { item: { count: 64, id: "draconicevolution:draconium_block" }, slot: 11 }, { item: { count: 64, id: "draconicevolution:draconium_block" }, slot: 12 }, { item: { count: 14, id: "draconicevolution:draconium_block" }, slot: 13 }, { item: { count: 5, id: "draconicevolution:awakened_draconium_ingot" }, slot: 14 }, { item: { count: 2, id: "draconicevolution:flux_gate" }, slot: 15 }, { item: { count: 36, id: "draconicevolution:energy_core_stabilizer" }, slot: 16 }, { item: { components: { "mekanism:energy": { energy_containers: [L;256000000L] } }, count: 1, id: "mekanism:ultimate_energy_cube" }, slot: 17 }, { item: { count: 4, id: "draconicevolution:wyvern_io_crystal" }, slot: 18 }, { item: { count: 1, id: "draconicevolution:crystal_binder" }, slot: 19 } ] }, count: 1, id: "minecraft:shulker_box" }
+				match_components: "strict"
+				optional_task: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+  "name": {
+    "text": "刷石机",
+    "color": "aqua"
+  },
+  "appearance": {
+    "custommachinery:block": "minecraft:cobblestone",
+    "custommachinery:interaction_sound": {
+      "step": "minecraft:block.metal.step",
+      "place": "minecraft:block.metal.place",
+      "hit": "minecraft:block.metal.hit",
+      "fall": "minecraft:block.metal.fall",
+      "break": "minecraft:block.metal.break"
+    },
+    "custommachinery:item": "minecraft:cobblestone",
+    "custommachinery:light": 15
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "input",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 170,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 4,
+      "y": 110
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 76,
+      "y": 42
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 4
+  }
+}

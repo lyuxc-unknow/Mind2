@@ -1,0 +1,59 @@
+{
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/recipe_schemas/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".mixin.out": true,
+        "assets": true,
+        "backups": true,
+        "cache": true,
+        "cachedImages": true,
+        "coremods": true,
+        "data": true,
+        "debug": true,
+        "defaultconfigs": true,
+        "hotai": true,
+        "ESM": true,
+        "downloads": true,
+        "fancymenu_data": true,
+        "kiwipacks": true,
+        "local": true,
+        "logs": true,
+        "moddata": true,
+        "patchouli_books": true,
+        "saves": true,
+        "schematics": true,
+        "server-resource-packs": true,
+        "shaderpacks": true,
+        "resourcepacks": true,
+        "mods": true,
+        "spark-modernfix": true,
+        "texturepacks": true,
+        "worldstripper": true,
+        ".curseclient": true,
+        "command_history.txt": true,
+        "icon.png": true,
+        "minecraftinstance.json": true,
+        "options.txt": true,
+        "patchouli_data.json": true,
+        "realms_persistence.json": true,
+        "servers.dat": true,
+        "usercache.json": true,
+        "usernamecache.json": true,
+        "datapacks": true,
+        "ftbbackups3": true,
+        "portable_blueprints": true,
+        "user-prefs.json": true
+    }
+}
