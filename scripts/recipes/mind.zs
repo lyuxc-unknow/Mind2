@@ -52,3 +52,9 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:block_crushing>, new LycheeReci
     .crushingFallingBlock(<block:ytech:bronze_anvil>)
     .post(LycheePosts.dropItem(<item:mind:bottle_of_tear>))
 );
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:item_inside>, new LycheeRecipeBuilder()
+    .itemIn([<item:minecraft:rotten_flesh> * 4, <item:minecraft:bone> * 8, <item:mysticalagriculture:inferium_essence> * 8])
+    .blockIn(<blockstate:minecraft:water:level=0>)
+    .post(LycheePosts.placeBlock(<blockstate:mind:industrial_lubricants:level=0>))
+);

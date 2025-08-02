@@ -55,3 +55,13 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:random_block_ticking>, new Lych
     .condition(LycheeConditions.dimension("hunting_dimension_remake:huntingdimension"))
     .post([LycheePosts.placeBlock(<block:actuallyadditions:black_quartz_ore>)])
 );
+
+CrystalAssembler.addRecipe(<item:mind:redstone_prism>, [<tag:item:c:gems/charged_redstone> * 16, <item:ars_nouveau:spell_prism>, <tag:item:c:glass_panes> * 4, <tag:item:ae2:knife>], <fluid:immersiveengineering:redstone_acid> * 2000);
+
+<recipetype:extendedcrafting:table>.addShaped("0e58bdb6-9220-46e6-a4cc-f73da255de8a", 2, <item:actuallyadditions:atomic_reconstructor>, [
+	[<item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>], 
+	[<item:naturesaura:sky_ingot>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:naturesaura:sky_ingot>], 
+	[<item:naturesaura:sky_ingot>, <item:mekanism_lasers:basic_laser>, <item:appflux:charged_redstone>, <item:mind:redstone_prism>, <item:naturesaura:sky_ingot>], 
+	[<item:naturesaura:sky_ingot>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:naturesaura:sky_ingot>], 
+	[<item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>]
+]);

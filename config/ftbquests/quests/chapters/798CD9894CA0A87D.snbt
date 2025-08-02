@@ -394,5 +394,27 @@
 			x: 1.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["634B42A5B9C77C54"]
+			id: "2352E8B4BB58E303"
+			tasks: [{
+				id: "00D1F78D47CC43F6"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2352E8B4BB58E303"]
+			id: "6962B30A7F0CF795"
+			tasks: [{
+				id: "634B98F366F14D80"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
 	]
 }
