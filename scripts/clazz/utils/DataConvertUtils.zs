@@ -9,6 +9,7 @@ import crafttweaker.api.ingredient.IIngredientWithAmount;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.ItemDefinition;
 import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.resource.ResourceLocation;
 import crafttweaker.api.tag.type.KnownTag;
 import crafttweaker.api.world.Level;
@@ -135,5 +136,36 @@ public class DataConvertUtils {
 
     public static recipesName() as string {
         return UUID.random() as string;
+    }
+
+    public static recipesName(output: IItemStack,inputs: IIngredient) as string {
+        var name: string = output.registryName.toString() + "/" + inputs.commandString;
+        return name.replace(":","_")
+            .replace("<","_")
+            .replace(">","_");
+    }
+
+    public static recipesName(output: IItemStack,inputs: IIngredient[]) as string {
+        return (output.registryName.toString() + "/" + inputs[0].commandString)
+            .replace(":","_")
+            .replace("<","_")
+            .replace(">","_");
+    }
+
+    public static recipesName(output: IItemStack,inputs: IIngredient[][]) as string {
+        var name: string = output.registryName.toString() + "/";
+        var name2: string = "";
+        for items in inputs {
+            for item in items {
+                if (item != IIngredientEmpty.getInstance() || item != <item:minecraft:air>) {
+                    name2 = item.commandString;
+                    break;
+                }
+            }
+        }
+        name = name + name2;
+        return name.replace(":","_")
+            .replace("<","_")
+            .replace(">","_");
     }
 }

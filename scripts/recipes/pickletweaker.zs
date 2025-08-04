@@ -22,37 +22,37 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     <item:pickletweaks:flint_scythe>: [
         [<item:minecraft:flint>, <item:minecraft:flint>, <tag:item:c:rods/wooden>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
-        [<tag:item:c:rods/wooden>, IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance()]
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
+        [<tag:item:c:rods/wooden>, <item:minecraft:air>, <item:minecraft:air>]
     ],
     <item:pickletweaks:flint_sickle>: [
-        [IIngredientEmpty.getInstance(), <item:minecraft:flint>, IIngredientEmpty.getInstance()], 
-        [IIngredientEmpty.getInstance(), IIngredientEmpty.getInstance(), <item:minecraft:flint>], 
+        [<item:minecraft:air>, <item:minecraft:flint>, <item:minecraft:air>], 
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:flint>], 
         [<tag:item:c:rods/wooden>, <item:minecraft:flint>, <tag:item:ytech:grass_twines>]
     ],
     <item:pickletweaks:flint_paxel>: [
         [<item:pickletweaks:flint_axe>, <item:pickletweaks:flint_pickaxe>, <item:pickletweaks:flint_shovel>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()]
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <item:minecraft:air>]
     ],
     <item:pickletweaks:flint_shears>: [
-        [IIngredientEmpty.getInstance(), <item:minecraft:flint>], 
+        [<item:minecraft:air>, <item:minecraft:flint>], 
         [<item:minecraft:flint>, <tag:item:ytech:grass_twines>]
     ],
     <item:pickletweaks:flint_hoe>: [
         [<item:minecraft:flint>, <item:minecraft:flint>,<tag:item:ytech:grass_twines>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()]
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <item:minecraft:air>], 
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <item:minecraft:air>]
     ],
     <item:pickletweaks:flint_axe>: [
         [<item:minecraft:flint>, <item:minecraft:flint>, <tag:item:ytech:grass_twines>], 
-        [<item:minecraft:flint>, <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()]
+        [<item:minecraft:flint>, <tag:item:c:rods/wooden>, <item:minecraft:air>], 
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <item:minecraft:air>]
     ],
     <item:pickletweaks:flint_shovel>: [
         [<item:minecraft:flint>, <tag:item:ytech:grass_twines>], 
-        [<tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()], 
-        [<tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()]
+        [<tag:item:c:rods/wooden>, <item:minecraft:air>], 
+        [<tag:item:c:rods/wooden>, <item:minecraft:air>]
     ]
 };
 
@@ -74,8 +74,8 @@ for output,inputs in shapelessRecipes {
 
 craftingTable.addShaped("flint_pickaxe_modifiter",<item:pickletweaks:flint_pickaxe>, [
         [<item:mind:sharp_flint> | <item:minecraft:flint>, <item:minecraft:flint>, <item:minecraft:flint>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
-        [IIngredientEmpty.getInstance(), <tag:item:c:rods/wooden>, IIngredientEmpty.getInstance()]
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <tag:item:ytech:grass_twines>], 
+        [<item:minecraft:air>, <tag:item:c:rods/wooden>, <item:minecraft:air>]
     ],(out,ins) => {
         if (ins[0][0] == <item:mind:sharp_flint>){
             return <item:pickletweaks:flint_pickaxe>;

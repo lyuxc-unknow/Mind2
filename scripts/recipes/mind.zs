@@ -4,9 +4,9 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <item:mind:rough_grinding_iron_ingot>: [
-        [IIngredientEmpty.getInstance(),<item:minecraft:diorite>,IIngredientEmpty.getInstance()],
+        [<item:minecraft:air>,<item:minecraft:diorite>,<item:minecraft:air>],
         [<item:minecraft:diorite>,<item:minecraft:iron_ingot>,<item:minecraft:diorite>],
-        [IIngredientEmpty.getInstance(),<item:minecraft:diorite>,IIngredientEmpty.getInstance()]
+        [<item:minecraft:air>,<item:minecraft:diorite>,<item:minecraft:air>]
     ],
     <item:mind:coal_with_clay_mixture>: [
         [<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>],

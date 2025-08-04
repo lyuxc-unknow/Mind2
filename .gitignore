@@ -6,6 +6,7 @@
 assets
 cache
 cachedImages
+config/ars_nouveau/*
 coremods
 crash-reports
 datapacks
@@ -41,3 +42,10 @@ servers.dat
 usercache.json
 usernamecache.json
 user-prefs.json
+config/bettervillage_1.properties
+config/iris.properties
+config/libraryferret_1.properties
+config/packetfixer.properties
+config/uwrad.properties
+config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
+config/fabric/indigo-renderer.properties

@@ -9,6 +9,14 @@
 	quests: [
 		{
 			id: "3DBC55B55898376D"
+			rewards: [{
+				id: "783BA45A4212B4F4"
+				item: {
+					count: 1
+					id: "torcherino:torcherino"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DBC35003B5C9D77"
 				type: "checkmark"

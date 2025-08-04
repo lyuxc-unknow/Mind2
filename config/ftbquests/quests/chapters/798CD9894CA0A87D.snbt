@@ -416,5 +416,24 @@
 			x: 5.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["6962B30A7F0CF795"]
+			id: "468E734F16FE295F"
+			tasks: [
+				{
+					count: 4L
+					id: "54DEBC0B35C45E14"
+					item: { count: 4, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+				{
+					id: "4791C69C8D7A7BF5"
+					item: { count: 1, id: "actuallyadditions:empowerer" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 6.0d
+		}
 	]
 }

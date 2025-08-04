@@ -10,7 +10,8 @@ import crafttweaker.api.recipe.replacement.type.ModsFilteringRule;
 
 val removeItem as IItemStack[] = [
     <item:ytech:grass_twine>,
-    <item:ytech:antler_pickaxe>
+    <item:ytech:antler_pickaxe>,
+    <item:ytech:crushed_cassiterite>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -26,6 +27,9 @@ val shapelessRecipes as IIngredient[][IItemStack] = {
     ],
     <item:ytech:antler_pickaxe>.withJsonComponent(<componenttype:minecraft:max_damage>, 10): [
         <item:ytech:antler>,<item:ytech:sharp_flint>.transformDamage().anyDamage()
+    ],
+    <item:ytech:crushed_cassiterite>: [
+        <tag:item:c:mortar_and_pestles>, <tag:item:c:raw_materials/tin>
     ]
 };
 

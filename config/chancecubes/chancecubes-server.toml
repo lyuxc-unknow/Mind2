@@ -21,7 +21,7 @@
 	# Range: 0 ~ 1000
 	PendantUses = 32
 	#True if Chance Cubes should generate like ores with in the world. false if they should not
-	GenerateAsOre = true
+	GenerateAsOre = false
 	#true if Chance Cubes should generate on the surface of the world. false if they should not
 	GenerateOnSurface = true
 	#Chance of a chunk to have a chance cube spawned on the surface. The math is 1/(surfaceGenerationAmount), so increase to make more rare, and decrease to make more common.

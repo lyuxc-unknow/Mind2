@@ -2,6 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.text.Component;
+import crafttweaker.api.util.math.BlockPos;
 
 val removeItem as IItemStack[] = [
     <item:minecraft:bucket>,
@@ -10,7 +11,8 @@ val removeItem as IItemStack[] = [
     <item:minecraft:nether_bricks>,
     <item:minecraft:lodestone>,
     <item:minecraft:cauldron>,
-    <item:minecraft:flint_and_steel>
+    <item:minecraft:flint_and_steel>,
+    <item:minecraft:ender_eye>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -262,3 +264,16 @@ CreateRecipeManager.addRecipe(<recipetype:create:haunting>, new CreateRecipeBuil
 
 YTechAlloying.remove(<item:minecraft:glass>);
 YTechAlloying.addRecipe(<item:minecraft:glass>,<item:ytech:crushed_galena>,<tag:item:c:sands>,1000,200);
+
+Empowering.addRecipe(<item:minecraft:ender_eye>,<item:minecraft:ender_pearl>,[<item:powah:blazing_crystal_block>,<item:minecraft:nether_star>,<item:mekanism:pellet_antimatter>,<item:mekanism_extras:enriched_spectrum>],100000,30,1280120);
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:block_clicking>,new LycheeRecipeBuilder()
+    .blockIn(<tag:block:minecraft:planks>)
+    .itemIn(<item:chisel:chisel>)
+    .condition(LycheeConditions.block(<tag:block:minecraft:wooden_slabs>,new BlockPos(0,1,0)))
+    .post([
+        LycheePosts.placeBlock(<block:minecraft:barrel>),
+        LycheePosts.placeBlock(<block:minecraft:air>,new BlockPos(0,1,0)),
+        LycheePosts.preventDefault()
+    ])
+);

@@ -12,12 +12,12 @@
     "saveOnUpdate": true,
     "pinnedMods": [],
     "recentMods": [
-      "jadeaddons",
-      "nmgic",
-      "actuallyadditions",
-      "neoforge",
-      "ae2"
+      "ae2",
+      "chancecubes",
+      "stellaris",
+      "modernfix",
+      "packageddraconic"
     ],
-    "scrollAmount": 36.0
+    "scrollAmount": 0.0
   }
 }

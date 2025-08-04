@@ -428,18 +428,18 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
-		#Extreme Crafting Mapper.
-		[mappers.Crafting-Mapper.Extreme-Mapper]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
-		#Neutronium Compressor Mapper.
-		[mappers.Crafting-Mapper.Compressor-Mapper]
-			#Determines whether this Recipe Type Mapper is enabled.
-			enabled = true
-
 		#Fallback for default handling of recipes that extend ICraftingRecipe, AbstractCookingRecipe, SingleItemRecipe, or SmithingRecipe. This will catch modded extensions of the vanilla recipe classes, and if the VanillaRecipeTypes mapper is disabled, this mapper will still catch the vanilla recipes.
 		[mappers.Crafting-Mapper.Fallback]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps avaritia recipes.
+		[mappers.Crafting-Mapper.Avaritia-Extreme]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
+		#Maps avaritia recipes.
+		[mappers.Crafting-Mapper.Avaritia-Compressor]
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
@@ -460,11 +460,6 @@ logFoundExploits = true
 
 	#Recipe mapper for custom recipes that don't implement IRecipe
 	[mappers.ProjectEIntegrationRecipeMapper]
-		#Determines whether this EMC Mapper is enabled.
-		enabled = true
-
-	#Avaritia EMC Mapper.
-	[mappers.Avaritia-EMC-Mapper]
 		#Determines whether this EMC Mapper is enabled.
 		enabled = true
 
