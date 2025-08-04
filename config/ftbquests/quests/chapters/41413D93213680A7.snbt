@@ -574,15 +574,23 @@
 		{
 			dependencies: ["275693C5B3745176"]
 			id: "60E3FF8AA6269A42"
-			rewards: [{
-				count: 2
-				id: "1837D0447FF49D35"
-				item: {
-					count: 1
-					id: "minecraft:fire_charge"
+			rewards: [
+				{
+					count: 2
+					id: "1837D0447FF49D35"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					command: "/astages add @s nether"
+					id: "4F017DD7AAF9602F"
+					permission_level: 2
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "171CBBBC9C209564"
 				type: "checkmark"

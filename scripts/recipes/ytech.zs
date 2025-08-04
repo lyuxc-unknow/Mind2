@@ -30,6 +30,9 @@ val shapelessRecipes as IIngredient[][IItemStack] = {
     ],
     <item:ytech:crushed_cassiterite>: [
         <tag:item:c:mortar_and_pestles>, <tag:item:c:raw_materials/tin>
+    ],
+    <item:ytech:raw_galena>: [
+        <tag:item:c:mortar_and_pestles>, <tag:item:c:raw_materials/lead>
     ]
 };
 
