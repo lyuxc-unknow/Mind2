@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.recipes.modular_machinery_reborn.machine_recipe("mind:magic_source_matrix_multiblock", 600)
+        .requireItem('#c:ender_pearls x3', 34, 8)
+        .requireSource(10000, 16, 8)
+        .produceItem("mind:magic_pearl", 80, 8)
+        .progressX(54)
+        .progressY(8)
+        .width(113)
+        .height(30)
+})

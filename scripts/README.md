@@ -10,7 +10,7 @@
 
 `recipes` -> 合成配方
 
-`register` -> CrT注册（当前仅MEK写了兼容）
+`register` -> CrT注册（当前仅MEK写了兼容）以及其他杂项（例如村民交易）
 
 `tags` -> 标签处理
 

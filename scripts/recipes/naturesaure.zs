@@ -62,3 +62,5 @@ NatureAlter.remove(<item:naturesaura:infused_iron_block>);
 NatureAlter.addRecipe(<item:naturesaura:infused_iron_block>,<tag:item:c:storage_blocks/iron>,2000,80,<item:naturesaura:conversion_catalyst>);
 
 NatureAlter.addRecipe(<item:naturesaura:infused_iron>,<tag:item:c:ingots>,2000,80,<item:naturesaura:conversion_catalyst>);
+
+Offering.addRecipe(<item:naturesaura:sky_ingot_block>,<item:naturesaura:calling_spirit>,<item:naturesaura:infused_iron_block>);

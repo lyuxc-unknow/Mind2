@@ -11,5 +11,4 @@ ServerEvents.recipes(event => {
     
     AStages.addRestrictionForItem("mind/disabled_stage","disabled_stage",disabled_items)
             .setHideInJEI(true)
-    AStages.addRestrictionForDimension("mind/restrication_nather","nether","the_nether")
 })

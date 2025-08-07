@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "21567E8F405F2B64"
+	group: "2BF4A6D56B9CA34F"
+	id: "21567E8F405F2B64"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1757B42299D9F4EA"
+			tasks: [{
+				id: "3755CC61D5F99DDE"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1757B42299D9F4EA"]
+			id: "7B806F9A2D3B5331"
+			tasks: [{
+				id: "399E09CD7E4BCC59"
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:copper\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:stone\"})))", "minecraft:custom_name": "\"一级喷气背包\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B806F9A2D3B5331"]
+			id: "492E36617EFE81A2"
+			tasks: [{
+				id: "0B54F906A7E1BBE6"
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:silver\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:bronze\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:iron\"})))", "minecraft:custom_name": "\"二级喷气背包\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["492E36617EFE81A2"]
+			id: "5F91281460066CF8"
+			tasks: [{
+				id: "1FD39EE6257AE201"
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:steel\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:gold\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:electrum\"})))", "minecraft:custom_name": "\"三级喷气背包\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5F91281460066CF8"]
+			id: "58AE0EB4E48531A2"
+			tasks: [{
+				id: "559AF534AD403AC7"
+				item: { components: { "ftbfiltersystem:filter": "or(and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:platinum\"}))and(item(ironjetpacks:jetpack)component(fuzzy:{\"ironjetpacks:jetpack_id\":\"ironjetpacks:diamond\"})))", "minecraft:custom_name": "\"四级喷气背包\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58AE0EB4E48531A2"]
+			id: "17B821906FB78546"
+			tasks: [{
+				id: "21614CD351707860"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:emerald" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+	]
+}

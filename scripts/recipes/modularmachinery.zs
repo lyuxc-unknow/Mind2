@@ -100,3 +100,9 @@ DissolutionChamber.addRecipe(<item:modular_machinery_reborn:casing_plain>,[
 	[<item:minecraft:redstone>, <item:modular_machinery_reborn:energyoutputhatch_small>, <item:minecraft:redstone>], 
 	[<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>]
 ]);
+
+DissolutionChamber.addRecipe(<item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mind:die_casting_machine"),[
+    <item:integrateddynamics:variable>,<item:immersiveengineering:sheetmetal_iron>,<item:integrateddynamics:variable>,
+    <item:integrateddynamics:variable_transformer_input>,<item:integrateddynamics:variable_transformer_output>,
+    <item:integrateddynamics:variable>,<item:immersiveengineering:sheetmetal_iron>,<item:integrateddynamics:variable>
+],400,<fluid:mind:industrial_lubricants> * 2000);

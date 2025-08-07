@@ -14,7 +14,8 @@ StartupEvents.registry("item", event => {
         "uv_lamp",
         "infinity_iron_mixed",
         "mind_coin",
-        "redstone_prism"
+        "redstone_prism",
+        "magic_pearl"
     ];
     research_map.forEach((key) => {
         event.create(`mind:${key}_research_point`)

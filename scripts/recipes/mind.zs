@@ -58,3 +58,13 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:item_inside>, new LycheeRecipeB
     .blockIn(<blockstate:minecraft:water:level=0>)
     .post(LycheePosts.placeBlock(<blockstate:mind:industrial_lubricants:level=0>))
 );
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:block_clicking>, new LycheeRecipeBuilder()
+    .itemIn(<item:ytech:sharp_flint>)
+    .blockIn(<tag:block:c:stones>)
+    .post(LycheePosts.dropItem(<item:mind:sharp_flint>))
+);
+
+PressureChamber.addRecipe([<item:mind:uv_lamp> * 2],[
+    <item:ae2:quartz_glass> * 3, <item:minecraft:purple_dye> * 4, <item:minecraft:glowstone_dust> * 4
+],2.1);

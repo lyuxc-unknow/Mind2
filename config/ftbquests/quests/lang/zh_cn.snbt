@@ -1,9 +1,11 @@
 {
 	chapter.0402AE762120F6AE.title: "前期无限电与爆炸"
+	chapter.21567E8F405F2B64.title: "飞行"
 	chapter.3B65A2567876314F.title: "终与龙"
 	chapter.41413D93213680A7.title: "原始时期"
 	chapter.798CD9894CA0A87D.title: "科技飞升"
 	chapter_group.111EC4308BE820AB.title: "主线"
+	chapter_group.2BF4A6D56B9CA34F.title: "杂项"
 	chapter_group.3AFB50ADED3F1DA4.title: "挑战"
 	file.0000000000000001.title: "mind2"
 	quest.24C80F5BE3CD2544.title: "鞣制架"
@@ -12,6 +14,8 @@
 	quest.6BB68B678E6DCF89.title: "确定后，将获得神龙反应堆"
 	task.0DBC35003B5C9D77.title: "开始"
 	task.171CBBBC9C209564.title: "前往下界"
+	task.21614CD351707860.title: "五级喷气背包"
+	task.3755CC61D5F99DDE.title: "初始喷气背包"
 	task.685DD22B2D263DDF.title: "确定后，将获得龙反应堆以及配套资源"
 	task.797730CA8A18A023.title: "Any #ytech:tanning_racks"
 }

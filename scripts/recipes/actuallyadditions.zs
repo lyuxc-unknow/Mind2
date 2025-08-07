@@ -7,7 +7,8 @@ val removeItem as IItemStack[] = [
     <item:actuallyadditions:lens_of_the_miner>,
     <item:actuallyadditions:wood_casing>,
     <item:actuallyadditions:feeder>,
-    <item:actuallyadditions:iron_casing>
+    <item:actuallyadditions:iron_casing>,
+    <item:actuallyadditions:atomic_reconstructor>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {

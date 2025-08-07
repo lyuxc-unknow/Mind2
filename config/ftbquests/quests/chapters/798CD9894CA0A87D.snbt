@@ -74,6 +74,19 @@
 		{
 			dependencies: ["5D69A45FD4C9A464"]
 			id: "637EE9FD3F464CB9"
+			rewards: [{
+				id: "40570621017AA092"
+				item: {
+					components: {
+						"ironjetpacks:jetpack_energy": 20000
+						"ironjetpacks:jetpack_engine": 1b
+						"ironjetpacks:jetpack_id": "ironjetpacks:wood"
+					}
+					count: 1
+					id: "ironjetpacks:jetpack"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "281C00C9F40693CD"
 				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
@@ -213,6 +226,12 @@
 		{
 			dependencies: ["37D5E909294D7597"]
 			id: "4E06053CA1C9DFFE"
+			rewards: [{
+				command: "/astages add @s chancecubes"
+				id: "612A9DB92EC87D64"
+				permission_level: 2
+				type: "command"
+			}]
 			tasks: [{
 				id: "79DB658D48266929"
 				item: { count: 1, id: "industrialforegoing:plastic" }
@@ -369,7 +388,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["58BF94B00892633E"]
@@ -381,7 +400,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["71C72D9DA507250B"]
@@ -392,7 +411,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["634B42A5B9C77C54"]
@@ -403,7 +422,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2352E8B4BB58E303"]
@@ -414,7 +433,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6962B30A7F0CF795"]
@@ -433,7 +452,58 @@
 				}
 			]
 			x: 7.0d
-			y: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["468E734F16FE295F"]
+			id: "66AD512F9B70DE0A"
+			tasks: [
+				{
+					id: "0849E47AAD4EA60C"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					id: "542A1DF9C8F57371"
+					item: { count: 1, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6962B30A7F0CF795"]
+			id: "72F168348B4639A4"
+			tasks: [{
+				id: "1034D6BFF6857E6C"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["72F168348B4639A4"]
+			id: "7251F4BB27A5137C"
+			tasks: [{
+				id: "7D7AD6BF6AD54794"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:alchemical_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:mycelial_sourcelink))", "minecraft:custom_name": "\"魔源通道\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7251F4BB27A5137C"]
+			id: "7CF84EE287699D8F"
+			tasks: [{
+				id: "665675CE828103E1"
+				item: { count: 1, id: "ars_nouveau:source_jar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
 		}
 	]
 }

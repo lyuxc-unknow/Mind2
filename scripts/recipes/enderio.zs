@@ -53,3 +53,8 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeR
 MetalPress.remove(<item:enderio:iron_gear>);
 
 MetalPress.addRecipe(<item:enderio:iron_gear>,<item:enderio:grains_of_infinity> * 4,10000,<item:industrialforegoing:iron_gear>);
+
+// --------------    YTech原始合金炉配方迁移     ----------------
+
+AlloySmelter.addRecipe(<item:minecraft:iron_ingot>,[<item:ytech:crushed_iron>,<item:minecraft:charcoal>],4800,1.0);
+AlloySmelter.addRecipe(<item:minecraft:glass>,[<tag:item:c:sands>,<tag:item:c:crushed_materials/galena>],4800,1.0);

@@ -49,4 +49,5 @@ config/packetfixer.properties
 config/uwrad.properties
 config/chancecubes/custom_rewards/CustomSounds-Resourcepack.zip
 config/fabric/indigo-renderer.properties
-*.bak
+*/*.bak
+ct_dumps
