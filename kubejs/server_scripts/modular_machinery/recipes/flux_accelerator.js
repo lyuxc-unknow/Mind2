@@ -1,0 +1,15 @@
+ServerEvents.recipes(event => {
+    const { modular_machinery_reborn } = event.recipes
+    modular_machinery_reborn.machine_recipe("mind:flux_accelerator", 20 * 60)
+        .requireItem('torcherino:torcherino', 20, 1)
+        .requireItem('justdirethings:time_crystal', 20, 19)
+        .requireItem('actuallyadditions:empowered_palis_crystal', 20, 37)
+        .requireItem('justdirethings:polymorphic_catalyst', 38, 1)
+        .requireEnergy(2000, 0, 1)
+        .requireChemical("mekanism:spent_nuclear_waste * 500", 38, 19)
+        .produceFluid("justdirethings:time_fluid_source * 1000", 80, 19)
+        .height(55)
+        .width(95)
+        .progressX(50)
+        .progressY(18)
+})

@@ -10,12 +10,16 @@
 	file.0000000000000001.title: "mind2"
 	quest.24C80F5BE3CD2544.title: "鞣制架"
 	quest.2D23738038A5348F.title: "或者放弃反应堆，手动处理发电"
+	quest.335DFCF666F84DFD.title: "魔源聚合矩阵"
 	quest.6BB68B678E6DCF89.quest_desc: ["确定后将获得龙反应堆及其配方资源，但是你无法获得任意其他发电机"]
 	quest.6BB68B678E6DCF89.title: "确定后，将获得神龙反应堆"
 	task.0DBC35003B5C9D77.title: "开始"
 	task.171CBBBC9C209564.title: "前往下界"
+	task.1996E1865F5A40AA.title: "Any #modular_machinery_reborn_ars:sourceinputhatch"
 	task.21614CD351707860.title: "五级喷气背包"
+	task.2A71ADAA602FAA7D.title: "Any #modular_machinery_reborn:inputbus"
 	task.3755CC61D5F99DDE.title: "初始喷气背包"
+	task.49B2AA01E932C65D.title: "Any #modular_machinery_reborn:outputbus"
 	task.685DD22B2D263DDF.title: "确定后，将获得龙反应堆以及配套资源"
 	task.797730CA8A18A023.title: "Any #ytech:tanning_racks"
 }
