@@ -108,5 +108,24 @@
 			x: 2.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["13278093CF529C9B"]
+			id: "6218BB5FE9581B2A"
+			tasks: [
+				{
+					count: 12L
+					id: "2F7BFBC8957698AA"
+					item: { count: 12, id: "draconicevolution:basic_crafting_injector" }
+					type: "item"
+				}
+				{
+					id: "0B8CBAD27287991E"
+					item: { count: 1, id: "draconicevolution:crafting_core" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
 	]
 }
