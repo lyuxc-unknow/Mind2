@@ -74,6 +74,9 @@
     "hud.status": true,
     "hud.contents": true
   },
+  "ftbquests": {
+    "barrier": true
+  },
   "avaritia": {
     "extreme_smithing": true,
     "crafting_table": true,

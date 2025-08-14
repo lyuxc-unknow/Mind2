@@ -10,6 +10,6 @@ ServerEvents.recipes(event => {
         .produceFluid("justdirethings:time_fluid_source * 1000", 80, 19)
         .height(55)
         .width(95)
-        .progressX(50)
-        .progressY(18)
+        .progressX(56)
+        .progressY(19)
 })

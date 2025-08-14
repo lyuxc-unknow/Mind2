@@ -15,7 +15,7 @@
 
 [general]
 	#Enables redstone being compressed with the bedrock and obsidian to get flux dusts.
-	enableFluxRecipe = true
+	enableFluxRecipe = false
 	#Allows flux devices to enable chunk loading.
 	enableChunkLoading = true
 

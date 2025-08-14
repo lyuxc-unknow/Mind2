@@ -1,0 +1,10 @@
+#After a rejected click/use, perform a micro resync on the next tick as a safeguard.
+watchdogEnabled = true
+#How many ticks to keep a player marked 'suspect' for a follow-up resync.
+# Default: 2
+# Range: 1 ~ 10
+watchdogTicks = 2
+#Rate limiter per player per tick to avoid packet spam.
+# Default: 3
+# Range: 1 ~ 10
+maxResyncsPerTick = 3

@@ -253,3 +253,6 @@ DissolutionChamber.remove(<item:industrialforegoing:machine_frame_advanced>);
 MetalPress.addRecipe(<item:industrialforegoing:iron_gear>,<item:minecraft:iron_ingot> * 4,10000,<item:immersiveengineering:mold_gear>);
 
 MetalPress.addRecipe(<item:industrialforegoing:diamond_gear>,<item:minecraft:diamond> * 4,10000,<item:immersiveengineering:mold_gear>);
+
+DissolutionChamber.remove(<item:industrialforegoing:machine_frame_supreme>);
+Empowering.addRecipe(<item:industrialforegoing:machine_frame_supreme>,<item:enderio:void_chassis>,[<item:draconicevolution:draconium_dust>,<item:mind:annihilation_dye>,<item:mysticalagriculture:prosperity_shard>,<item:mysticalagradditions:dragon_scale>],300000,600,0xFFFFFFFF);

@@ -4,11 +4,16 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 
 val removeItem as IItemStack[] = [
     <item:mekanism:steel_casing>,
-	<item:mekanism:metallurgic_infuser>
+	<item:mekanism:metallurgic_infuser>,
+	<item:mekanism:antiprotonic_nucleosynthesizer>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
-    
+	<item:mekanism:antiprotonic_nucleosynthesizer>: [
+		[<item:mekanism:alloy_atomic>, <tag:item:c:circuits/ultimate>, <item:mekanism:alloy_atomic>], 
+		[<tag:item:c:pellets/antimatter>, <item:industrialforegoing:machine_frame_supreme>, <tag:item:c:pellets/antimatter>], 
+		[<item:mekanism:alloy_atomic>, <tag:item:c:circuits/ultimate>, <item:mekanism:alloy_atomic>]
+	]
 };
 
 val shapelessRecipes as IIngredient[][IItemStack] = {
@@ -41,3 +46,9 @@ PressureChamber.addRecipe([<item:mekanism:steel_casing>],[
 
 <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
 <recipetype:mekanism:metallurgic_infusing>.addRecipe("mekanism_basic_control_circuit",<item:pneumaticcraft:unassembled_pcb>,<chemical:mekanism:redstone> * 90,<item:mekanism:basic_control_circuit>,false);
+
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/atomic");
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("mekanism_atomic_alloy",<item:mekanism:alloy_reinforced>,<chemical:crafttweaker:draconium> * 90,<item:mekanism:alloy_atomic>,false);
+
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/reinforced");
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("metallurgic_infusing/alloy/reinforced", <tag:item:mekanism:alloys/infused>, <chemical:crafttweaker:crystaltine> * 30, <item:mekanism:alloy_reinforced>, false);

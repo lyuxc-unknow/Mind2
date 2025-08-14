@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2E4928CB76229D67"]
 			id: "6BB68B678E6DCF89"
 			rewards: [{
 				id: "17E64CF53FB3F051"
@@ -182,6 +183,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["6BB68B678E6DCF89"]
 			id: "2D23738038A5348F"
 			rewards: [{
 				command: "/astages add @p generator_stage"

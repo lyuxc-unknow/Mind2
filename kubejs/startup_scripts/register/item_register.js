@@ -15,7 +15,11 @@ StartupEvents.registry("item", event => {
         "infinity_iron_mixed",
         "mind_coin",
         "redstone_prism",
-        "magic_pearl"
+        "magic_pearl",
+        "finals_token",
+        "end_petal",
+        "annihilation_dye",
+        "space_ice"
     ];
     research_map.forEach((key) => {
         event.create(`mind:${key}_research_point`)
@@ -23,4 +27,15 @@ StartupEvents.registry("item", event => {
     items.forEach((key) => {
         event.create(`mind:${key}`)
     })
+    event.create("mind:ender_dragon_killer")
+        .maxStackSize(1)
+        .use((level,player,interactionHand) => {
+            if (!level.isClientSide()) {
+                level.runCommandSilent("kill @e[type=minecraft:ender_dragon]")
+                let itemStack = player.getMainHandItem()
+                itemStack.setCount(0)
+                player.setHeldItem(interactionHand,itemStack.item)
+            }
+            return true
+        })
 })

@@ -18,6 +18,11 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     <item:ytech:ingot_sand_mold>:[
         [<tag:item:c:bricks>],
         [<tag:item:minecraft:sand>]
+    ],
+    <item:minecraft:crafting_table>: [
+        [<tag:item:c:hammers>.asIIngredient().anyDamage().transformDamage(1),<tag:item:c:saws>.asIIngredient().anyDamage().transformDamage(1)],
+        [<tag:item:minecraft:planks>,<tag:item:minecraft:planks>],
+        [<tag:item:minecraft:planks>,<tag:item:minecraft:planks>]
     ]
 };
 

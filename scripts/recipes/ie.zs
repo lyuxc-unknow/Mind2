@@ -65,12 +65,6 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>,new LycheeRe
     .post(LycheePosts.placeBlock(<block:immersiveengineering:cokebrick>))
 );
 
-// LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>,new LycheeRecipeBuilder()
-//     .itemIn(<item:minecraft:magma_cream>)
-//     .blockIn(<block:minecraft:nether_bricks>)
-//     .post(LycheePosts.placeBlock(<block:immersiveengineering:blastbrick>))
-// );
-
 LycheeRecipeManager.addRecipe(<recipetype:lychee:dripstone_dripping>,new LycheeRecipeBuilder()
     .sourceBlock(<block:immersiveengineering:creosote_fluid_block>)
     .targetBlock(<tag:block:minecraft:planks>)
@@ -103,3 +97,9 @@ CreateRecipeManager.addRecipe(<recipetype:create:haunting>,new CreateRecipeBuild
 
 CraftingTableRecipe.add3x3Recips(<item:immersiveengineering:blastbrick>,<item:mind:blast_bricks>);
 
+LycheeRecipeManager.addRecipe(<recipetype:lychee:anvil_crafting>, new LycheeRecipeBuilder()
+    .itemIn([<item:immersiveengineering:graphite_electrode>, <item:minecraft:enchanted_book>.withJsonComponent(<componenttype:minecraft:stored_enchantments>, {levels: {"minecraft:unbreaking": 7}})])
+    .anvilItemOut(<item:immersiveengineering:graphite_electrode>.withJsonComponent(<componenttype:minecraft:unbreakable>, {show_in_tooltip: true}).without(<componenttype:minecraft:max_stack_size>))
+    .anvilLevelCost(20),
+    "unbreakable_graphite_electrode"
+);

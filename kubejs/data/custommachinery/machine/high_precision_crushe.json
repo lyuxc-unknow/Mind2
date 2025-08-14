@@ -1,0 +1,126 @@
+{
+  "name": {
+    "text": "高精度破碎机"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "immersiveengineering:crusher"
+      }
+    },
+    "custommachinery:ambient_sound": {
+      "sound": "minecraft:"
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "capacity": 2000000,
+      "max_input": 100000,
+      "max_output": 100000,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "INPUT",
+        "LEFT": "NONE",
+        "input": true
+      }
+    },
+    {
+      "type": "custommachinery:chemical",
+      "max_input": 10000,
+      "max_output": 10000,
+      "id": "input_chemical",
+      "capacity": 100000,
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:pressure",
+      "volume": 5000,
+      "danger": 6.0,
+      "critical": 8.0,
+      "config": {
+        "TOP": "ENABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "INPUT",
+        "input": true
+      },
+      "id": "input",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "OUTPUT",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "input": true
+      },
+      "id": "output",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 200,
+      "height": 160
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 20,
+      "y": 77
+    },
+    {
+      "type": "custommachinery:chemical",
+      "id": "input_chemical",
+      "x": 21,
+      "y": 18,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:pressure",
+      "x": 51,
+      "y": 26,
+      "width": 29,
+      "height": 29
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input",
+      "x": 94,
+      "y": 31,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 162,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 125,
+      "y": 32
+    }
+  ]
+}

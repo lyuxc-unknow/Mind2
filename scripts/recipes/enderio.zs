@@ -6,7 +6,8 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 
 val removeItem as IItemStack[] = [
     <item:enderio:wood_gear>,
-    <item:enderio:primitive_alloy_smelter>
+    <item:enderio:primitive_alloy_smelter>,
+    <item:enderio:void_chassis>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -14,6 +15,11 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:ytech:reinforced_brick_chimney>,<item:ytech:primitive_alloy_smelter>,<item:ytech:reinforced_brick_chimney>],
         [<item:minecraft:deepslate>,<item:enderio:grains_of_infinity>,<item:minecraft:deepslate>],
         [<item:minecraft:deepslate>,<item:minecraft:deepslate>,<item:minecraft:deepslate>]
+    ],
+    <item:enderio:basic_capacitor>: [
+        [IIngredientEmpty.getInstance(), <tag:item:c:nuggets/gold>, <tag:item:c:dusts/grains_of_infinity>], 
+        [<tag:item:c:nuggets/gold>, <item:pneumaticcraft:capacitor>, <tag:item:c:nuggets/gold>], 
+        [<tag:item:c:dusts/grains_of_infinity>, <tag:item:c:nuggets/gold>, IIngredientEmpty.getInstance()]
     ]
 };
 
@@ -58,3 +64,14 @@ MetalPress.addRecipe(<item:enderio:iron_gear>,<item:enderio:grains_of_infinity> 
 
 AlloySmelter.addRecipe(<item:minecraft:iron_ingot>,[<item:ytech:crushed_iron>,<item:minecraft:charcoal>],4800,1.0);
 AlloySmelter.addRecipe(<item:minecraft:glass>,[<tag:item:c:sands>,<tag:item:c:crushed_materials/galena>],4800,1.0);
+
+// -------------------------------------------------------------
+<recipetype:extendedcrafting:table>.addShaped("545e9987-7083-43dd-8fc4-a31a1c26dd26", 3, <item:enderio:void_chassis>, [
+	[<item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>], 
+	[<item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>], 
+	[<item:immersiveengineering:stick_iron>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:immersiveengineering:stick_iron>], 
+	[<item:immersiveengineering:stick_iron>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:industrialforegoing:machine_frame_advanced>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:immersiveengineering:stick_iron>], 
+	[<item:immersiveengineering:stick_iron>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:immersiveengineering:stick_iron>], 
+	[<item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>], 
+	[<item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>]
+]);

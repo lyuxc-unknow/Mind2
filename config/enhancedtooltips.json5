@@ -18,7 +18,7 @@
 		/* Toggles the tooltip pop-up animation.
 		   (default: true)
 		*/
-		"enabled": true,
+		"enabled": false,
 		/* Duration of the pop-up animation in seconds.
 		   (default: 1.5)
 		*/

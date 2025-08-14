@@ -618,5 +618,17 @@
 			x: -3.0d
 			y: 8.5d
 		}
+		{
+			dependencies: ["66AD512F9B70DE0A"]
+			id: "18BE962186897B52"
+			tasks: [{
+				count: 12L
+				id: "0D975A8A1FFC6580"
+				item: { count: 12, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
 	]
 }

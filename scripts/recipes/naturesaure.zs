@@ -1,3 +1,4 @@
+import crafttweaker.api.util.math.BlockPos;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
@@ -64,3 +65,10 @@ NatureAlter.addRecipe(<item:naturesaura:infused_iron_block>,<tag:item:c:storage_
 NatureAlter.addRecipe(<item:naturesaura:infused_iron>,<tag:item:c:ingots>,2000,80,<item:naturesaura:conversion_catalyst>);
 
 Offering.addRecipe(<item:naturesaura:sky_ingot_block>,<item:naturesaura:calling_spirit>,<item:naturesaura:infused_iron_block>);
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeRecipeBuilder()
+    .blockIn(<block:mind:annihilation_dye_with_dirt>)
+    .itemIn(<item:minecraft:bone_meal>)
+    .condition(LycheeConditions.block(<block:minecraft:podzol>, new BlockPos(0,-1,0)))
+    .post([LycheePosts.placeBlock(<block:naturesaura:end_flower>),LycheePosts.placeBlock(<block:minecraft:end_stone>, new BlockPos(0,-1,0))])
+);

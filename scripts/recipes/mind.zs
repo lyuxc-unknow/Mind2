@@ -1,6 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
+import crafttweaker.api.util.math.BlockPos;
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <item:mind:rough_grinding_iron_ingot>: [
@@ -16,7 +17,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 };
 
 val shapelessRecipes as IIngredient[][IItemStack] = {
-    
+    <item:mind:end_petal> * 2: [
+        <item:naturesaura:end_flower>, <tag:item:c:tools/shear>.asIIngredient().anyDamage().transformDamage(1)
+    ],
+    <item:mind:annihilation_dye> * 2: [
+        <item:mind:end_petal>, <tag:item:c:mortar_and_pestles>.asIIngredient().anyDamage().transformDamage(1)
+    ]
 };
 
 for output,inputs in shapedRecipes {
@@ -29,23 +35,6 @@ for output,inputs in shapelessRecipes {
 
 Melter.addRecipe(<fluid:mind:black_fluid> * 250, <tag:item:c:dyes/black>, 200, 2);
 
-val recipes as IIngredient[][] = [
-	[<item:megacells:sky_bronze_ingot>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:megacells:sky_bronze_ingot>], 
-	[<item:create:shaft>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:create:water_wheel>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:actuallyadditions:advanced_coil>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:create:shaft>], 
-	[<item:create:shaft>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:megacells:sky_bronze_ingot>, <item:minecraft:crying_obsidian>, <item:create:shaft>], 
-	[<item:megacells:sky_bronze_ingot>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:create:shaft>, <item:megacells:sky_bronze_ingot>]
-];
-
-CreateRecipeManager.addRecipe(<recipetype:create:mechanical_crafting>, new CreateRecipeBuilder()
-    .inputs(recipes)
-    .acceptMirrored(true)
-    .result(<item:create:creative_motor>)
-);
 
 LycheeRecipeManager.addRecipe(<recipetype:lychee:block_crushing>, new LycheeRecipeBuilder()
     .itemIn(<item:naturesaura:aura_bottle>.withJsonComponent(<componenttype:naturesaura:aura_bottle_data>, {aura_type: "naturesaura:nether"}))
@@ -68,3 +57,22 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:block_clicking>, new LycheeReci
 PressureChamber.addRecipe([<item:mind:uv_lamp> * 2],[
     <item:ae2:quartz_glass> * 3, <item:minecraft:purple_dye> * 4, <item:minecraft:glowstone_dust> * 4
 ],2.1);
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:random_block_ticking>, new LycheeRecipeBuilder()
+    .blockIn(<block:mind:annihilation_dye_with_dirt>)
+    .condition(LycheeConditions.not(LycheeConditions.block(<block:minecraft:podzol>, new BlockPos(0,-1,0))))
+    .post([LycheePosts.placeBlock(<block:minecraft:air>), LycheePosts.dropItem(<item:mind:annihilation_dye_with_dirt>)])
+);
+val unbreakableBook = <item:minecraft:enchanted_book>.withJsonComponent(<componenttype:minecraft:stored_enchantments>, {levels: {"minecraft:unbreaking": 1}});
+
+craftingTable.addShaped("unbreakable_iron_aiot",<item:actuallyadditions:iron_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),[
+    [<item:naturesaura:sky_ingot>,unbreakableBook,<item:naturesaura:sky_ingot>],
+    [unbreakableBook,<item:actuallyadditions:iron_aiot>,unbreakableBook],
+    [<item:naturesaura:sky_ingot>,unbreakableBook,<item:naturesaura:sky_ingot>]
+]);
+
+craftingTable.addShaped("unbreakable_netherite_aiot",<item:actuallyadditions:netherite_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),[
+    [<item:minecraft:netherite_ingot>,unbreakableBook,<item:minecraft:netherite_ingot>],
+    [unbreakableBook,<item:actuallyadditions:iron_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),unbreakableBook],
+    [<item:minecraft:netherite_ingot>,unbreakableBook,<item:minecraft:netherite_ingot>]
+]);

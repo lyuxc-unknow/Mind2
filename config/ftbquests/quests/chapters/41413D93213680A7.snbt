@@ -601,6 +601,12 @@
 		{
 			dependencies: ["60E3FF8AA6269A42"]
 			id: "2E4928CB76229D67"
+			rewards: [{
+				command: "/astages add @s village"
+				id: "322BA76385A9B65B"
+				permission_level: 2
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:the_nether"

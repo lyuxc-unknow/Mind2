@@ -1,0 +1,32 @@
+ServerEvents.recipes(event => {
+    let creativeItem = [
+        'create:creative_crate', 
+        'mekanism_lasers:creative_toggleable_laser', 
+        'mekanism_lasers:creative_laser', 
+        'pneumaticcraft:creative_compressor', 
+        'pneumaticcraft:creative_compressed_iron_block', 
+        'pneumaticcraft:creative_upgrade', 
+        'powah:energy_cell_creative', 
+        'projecte:tome', 
+        'ae2:creative_energy_cell', 
+        'mekanism:creative_fluid_tank', 
+        'mekanism:creative_bin', 
+        'ars_nouveau:creative_spell_book', 
+        'immersiveengineering:capacitor_creative', 
+        'functionalstorage:creative_vending_upgrade', 
+        'create:creative_blaze_cake', 
+        'mekanismadvancedgenerators:creative_solar_panel', 
+        'ae2:creative_storage_cell', 
+        'enderio:creative_power', 
+        'mekanism_extras:upgrade_creative', 
+        'mekanism:creative_chemical_tank', 
+        'draconicevolution:creative_op_capacitor', 
+        'ars_nouveau:creative_source_jar', 
+        'create:creative_fluid_tank'
+    ]
+    AStages.addRestrictionForItem("mind/creaative_stage","creative_stage",creativeItem)
+        .setCanBeStoredInContainers(false)
+        .setCanBeStoredInInventory(false)
+        .setCanPickedUp(false)
+        .setHideInJEI(true)
+})

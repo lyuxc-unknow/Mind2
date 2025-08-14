@@ -6,5 +6,107 @@
 	id: "3B65A2567876314F"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["18BE962186897B52"]
+			id: "08247DB65DC8619E"
+			rewards: [{
+				command: "/astages add @s the_end"
+				id: "2A3A06AAB4B3157F"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				id: "403C805891CF74E2"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["08247DB65DC8619E"]
+			id: "6CC26FF036995412"
+			tasks: [{
+				id: "664C74049EE9A396"
+				item: { count: 1, id: "naturesaura:end_flower" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6CC26FF036995412"]
+			id: "0EC0FA591101BB1D"
+			tasks: [{
+				id: "0D5D7D09AB12A78E"
+				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EC0FA591101BB1D"]
+			id: "28400FCF1F90567B"
+			tasks: [{
+				id: "2CB86DF3B6892C5B"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28400FCF1F90567B"]
+			id: "69E0FF1AB908C65E"
+			tasks: [
+				{
+					count: 9L
+					id: "3EF62DE22411EBC5"
+					item: { count: 9, id: "stellaris:rocket_launch_pad" }
+					type: "item"
+				}
+				{
+					id: "000F7CF7B2B52282"
+					item: { count: 1, id: "stellaris:rocket_station" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69E0FF1AB908C65E"]
+			id: "57284BACA9594481"
+			tasks: [{
+				id: "4D77ED0D365A1215"
+				item: { count: 1, id: "mind:space_ice" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["57284BACA9594481"]
+			id: "06C5EBFC836DAC6F"
+			tasks: [{
+				id: "0F5C15C2047BE4E8"
+				item: { components: { "custommachinery:machine": "custommachinery:antimatter_fusion_converter" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06C5EBFC836DAC6F"]
+			id: "13278093CF529C9B"
+			tasks: [{
+				id: "191337C2EDABD1AD"
+				item: { count: 1, id: "draconicevolution:draconium_core" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+	]
 }

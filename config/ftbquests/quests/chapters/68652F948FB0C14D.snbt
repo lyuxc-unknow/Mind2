@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "68652F948FB0C14D"
+	group: "3AFB50ADED3F1DA4"
+	id: "68652F948FB0C14D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "3849DE2945210909"
+		rewards: [{
+			id: "4F0A85C9EB9A2165"
+			item: {
+				count: 1
+				id: "javd:portal_block"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			consume_items: true
+			count: 64L
+			id: "7359D13AEE956AB9"
+			item: { count: 1, id: "enderio:reinforced_obsidian_block" }
+			type: "item"
+		}]
+		x: -2.0d
+		y: -1.0d
+	}]
+}

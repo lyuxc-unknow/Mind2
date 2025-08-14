@@ -39,6 +39,10 @@ val shapelessRecipes as IIngredient[][IItemStack] = {
     ]
 };
 
+val recipeName as string[] = [
+    "minecraft:iron_ingot_from_nuggets"
+];
+
 for item in removeItem {
     craftingTable.remove(item);
 }
@@ -49,6 +53,10 @@ for output,inputs in shapedRecipes {
 
 for output,inputs in shapelessRecipes {
     CraftingTableRecipe.addShapeless(output,inputs);
+}
+
+for name in recipeName {
+    craftingTable.removeByName(name);
 }
 
 WorkspaceCrafting.addRecipe(<item:minecraft:bricks>,<tag:item:c:hammers>,
@@ -265,8 +273,6 @@ CreateRecipeManager.addRecipe(<recipetype:create:haunting>, new CreateRecipeBuil
 YTechAlloying.remove(<item:minecraft:glass>);
 YTechAlloying.addRecipe(<item:minecraft:glass>,<item:ytech:crushed_galena>,<tag:item:c:sands>,1000,200);
 
-Empowering.addRecipe(<item:minecraft:ender_eye>,<item:minecraft:ender_pearl>,[<item:powah:blazing_crystal_block>,<item:minecraft:nether_star>,<item:mekanism:pellet_antimatter>,<item:mekanism_extras:enriched_spectrum>],100000,30,1280120);
-
 LycheeRecipeManager.addRecipe(<recipetype:lychee:block_clicking>,new LycheeRecipeBuilder()
     .blockIn(<tag:block:minecraft:planks>)
     .itemIn(<item:chisel:chisel>)
@@ -277,3 +283,5 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:block_clicking>,new LycheeRecip
         LycheePosts.preventDefault()
     ])
 );
+
+Energizing.addRecipe(<item:minecraft:ender_eye> * 4,[<item:mekanism_extras:enriched_thermonuclear>,<item:mind:magic_pearl>,<item:psi:psigem>,<item:extendedcrafting:ender_nugget>,<item:minecraft:amethyst_shard>, <item:ae2:fluix_pearl>],100000);
