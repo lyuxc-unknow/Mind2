@@ -8,7 +8,8 @@ val removeItem as IItemStack[] = [
     <item:actuallyadditions:wood_casing>,
     <item:actuallyadditions:feeder>,
     <item:actuallyadditions:iron_casing>,
-    <item:actuallyadditions:atomic_reconstructor>
+    <item:actuallyadditions:atomic_reconstructor>,
+    <item:actuallyadditions:ender_casing>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -19,20 +20,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ]
 };
 
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
 }
 
 for output,inputs in shapedRecipes {
     CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 <recipetype:actuallyadditions:crushing>.removeAll();
@@ -65,4 +58,10 @@ CrystalAssembler.addRecipe(<item:mind:redstone_prism>, [<tag:item:c:gems/charged
 	[<item:naturesaura:sky_ingot>, <item:mekanism_lasers:basic_laser>, <item:appflux:charged_redstone>, <item:mind:redstone_prism>, <item:naturesaura:sky_ingot>], 
 	[<item:naturesaura:sky_ingot>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:appflux:charged_redstone>, <item:naturesaura:sky_ingot>], 
 	[<item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>, <item:naturesaura:sky_ingot>]
+]);
+
+<recipetype:extendedcrafting:ender_crafter>.addShaped("f1bd3f6a-67d8-41e0-ac8f-ce9db0704aa4", <item:actuallyadditions:ender_casing>, [
+	[<item:minecraft:ender_pearl>,<item:actuallyadditions:empowered_diamatine_crystal>, <item:minecraft:ender_pearl>], 
+	[<item:actuallyadditions:empowered_diamatine_crystal>, <item:industrialforegoing:machine_frame_supreme>, <item:actuallyadditions:empowered_diamatine_crystal>], 
+	[<item:minecraft:ender_pearl>, <item:actuallyadditions:empowered_diamatine_crystal>, <item:minecraft:ender_pearl>]
 ]);

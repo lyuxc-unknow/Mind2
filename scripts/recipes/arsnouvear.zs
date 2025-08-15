@@ -19,10 +19,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
 	]
 };
 
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 val recipeName as string[] = [
 	"ars_nouveau:sourcestone"
 ];
@@ -33,10 +29,6 @@ for item in removeItem {
 
 for output,inputs in shapedRecipes {
     CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 for name in recipeName {

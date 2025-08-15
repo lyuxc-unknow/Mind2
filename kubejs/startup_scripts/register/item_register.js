@@ -1,7 +1,4 @@
 StartupEvents.registry("item", event => {
-    let research_map = [
-        "torcherino"
-    ]
     let items = [
         "rough_grinding_iron_ingot",
         "rusty_iron_ingot",
@@ -19,11 +16,10 @@ StartupEvents.registry("item", event => {
         "finals_token",
         "end_petal",
         "annihilation_dye",
-        "space_ice"
+        "space_ice",
+        "conversion_media",
+        "empty_philosophers_stone"
     ];
-    research_map.forEach((key) => {
-        event.create(`mind:${key}_research_point`)
-    })
     items.forEach((key) => {
         event.create(`mind:${key}`)
     })

@@ -1,0 +1,10 @@
+# List of comparators to use in the AE2 entry comparator. 
+# Each comparator is defined by a string in the format '<comparator_name>' or 
+# '<comparator_name>:<comparator_value>'. The comparators are identified by their name, 
+# where the available names are listed below. 
+# And the optional value can be used to specify additional parameters for the comparator. 
+# If a comparator name is not recognized, or if the value is not valid, 
+# the comparator will be ignored. 
+# comparator names are defined by the regex: ^([a-zA-Z0-9_]+):?([a-zA-Z0-9_\-./:]+)?$
+# Available comparators: [storedAmountInfinity, item, isCraftable, isUndamaged, fluid, isAlmostUnifiedPreferred, storedAmount]
+comparatorList = ["isCraftable", "isUndamaged", "isAlmostUnifiedPreferred", "storedAmount"]

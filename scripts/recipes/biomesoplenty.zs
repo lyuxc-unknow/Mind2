@@ -29,24 +29,8 @@ val removeItem as IItemStack[] = [
     <item:biomeswevegone:zelkova_crafting_table>
 ];
 
-val shapedRecipes as IIngredient[][][IItemStack] = {
-    
-};
-
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
-}
-
-for output,inputs in shapedRecipes {
-    CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 YTechHammering.addRecipe(<item:biomesoplenty:rose_quartz_block>, <item:ytech:iron_hammer>,<item:biomesoplenty:rose_quartz_chunk> * 4,30);

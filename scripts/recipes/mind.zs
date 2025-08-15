@@ -76,3 +76,15 @@ craftingTable.addShaped("unbreakable_netherite_aiot",<item:actuallyadditions:net
     [unbreakableBook,<item:actuallyadditions:iron_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),unbreakableBook],
     [<item:minecraft:netherite_ingot>,unbreakableBook,<item:minecraft:netherite_ingot>]
 ]);
+
+<recipetype:extendedcrafting:table>.addShaped("b0fd9b0a-41cc-4958-8ec7-4f4d3dc04871", 1, <item:mind:conversion_media> * 2, [
+	[<item:projecte:high_covalence_dust> * 2, <item:projecte:medium_covalence_dust> * 4, <item:projecte:low_covalence_dust> * 8], 
+	[<item:sgjourney:advanced_transfer_crystal> * 2, <item:projecte:philosophers_stone>.withJsonComponent(<componenttype:projecte:charge>, 4), <item:sgjourney:advanced_transfer_crystal> * 2], 
+	[<item:projecte:low_covalence_dust> * 8, <item:projecte:medium_covalence_dust> * 4, <item:projecte:high_covalence_dust> * 2]
+]);
+
+<recipetype:extendedcrafting:table>.addShaped("337b0df7-89fe-49c1-80f0-fb26837726c2", 0, <item:mind:finals_token>, [
+	[<item:projecte:red_matter_block>, <item:avaritia:infinity_ingot>, <item:projecte:red_matter_block>], 
+	[<item:avaritia:infinity_ingot>, <item:torcherino:the_unknown_torcherino>, <item:avaritia:infinity_ingot>], 
+	[<item:projecte:red_matter_block>, <item:avaritia:infinity_ingot>, <item:projecte:red_matter_block>]
+]);

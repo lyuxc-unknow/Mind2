@@ -21,10 +21,6 @@ val removeItem as IItemStack[] = [
     <item:hunting_dimension_remake:huntingdimension>
 ];
 
-val shapedRecipes as IIngredient[][][IItemStack] = {
-    
-};
-
 val shapelessRecipes as IIngredient[][IItemStack] = {
     <item:hunting_dimension_remake:huntingdimension>: [
         <item:minecraft:flint_and_steel>.anyDamage(),<item:hunting_dimension_remake:hunting_dimension_frame>
@@ -33,10 +29,6 @@ val shapelessRecipes as IIngredient[][IItemStack] = {
 
 for item in removeItem {
     craftingTable.remove(item);
-}
-
-for output,inputs in shapedRecipes {
-    CraftingTableRecipe.addShaped(output,inputs);
 }
 
 for output,inputs in shapelessRecipes {

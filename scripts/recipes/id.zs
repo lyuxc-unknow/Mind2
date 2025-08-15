@@ -9,22 +9,6 @@ val removeItem as IItemStack[] = [
     <item:integrateddynamics:squeezer>
 ];
 
-val shapedRecipes as IIngredient[][][IItemStack] = {
-    
-};
-
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
-}
-
-for output,inputs in shapedRecipes {
-    CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }

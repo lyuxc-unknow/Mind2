@@ -127,5 +127,269 @@
 			x: 0.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["6218BB5FE9581B2A"]
+			id: "746385B0C60DDE70"
+			tasks: [{
+				count: 54L
+				id: "3C4F23B554952935"
+				item: { count: 54, id: "draconicevolution:chaotic_crafting_injector" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["746385B0C60DDE70"]
+			id: "7443AFF28E8316EA"
+			tasks: [{
+				id: "4243194904AB4634"
+				item: { components: { "projecte:charge": 4 }, count: 1, id: "projecte:philosophers_stone" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7443AFF28E8316EA"]
+			id: "38D5B61A07A85201"
+			tasks: [{
+				id: "09FB74A9E867B2A5"
+				item: { count: 1, id: "mind:conversion_media" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38D5B61A07A85201"]
+			id: "7689C2E3D7599E44"
+			tasks: [{
+				id: "3D9E2E210F680A49"
+				item: { count: 1, id: "projecte:dark_matter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7689C2E3D7599E44"]
+			id: "544E5CCB4862D8A7"
+			tasks: [{
+				id: "027E3E3F71370421"
+				item: { count: 1, id: "projecte:transmutation_table" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["544E5CCB4862D8A7"]
+			id: "2896B3CFCF73BD92"
+			tasks: [{
+				consume_items: true
+				id: "490E1478F5BE002F"
+				item: { count: 1, id: "torcherino:the_unknown_torcherino" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2896B3CFCF73BD92"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "178A40A77B225B94"
+			rewards: [
+				{
+					id: "30D2537938C9FED9"
+					item: {
+						components: {
+							"minecraft:container": [
+								{
+									item: {
+										count: 1
+										id: "mekanism:creative_fluid_tank"
+									}
+									slot: 0
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanism:creative_bin"
+									}
+									slot: 1
+								}
+								{
+									item: {
+										count: 1
+										id: "ars_nouveau:creative_spell_book"
+									}
+									slot: 2
+								}
+								{
+									item: {
+										count: 1
+										id: "immersiveengineering:capacitor_creative"
+									}
+									slot: 3
+								}
+								{
+									item: {
+										count: 1
+										id: "functionalstorage:creative_vending_upgrade"
+									}
+									slot: 4
+								}
+								{
+									item: {
+										count: 1
+										id: "create:creative_fluid_tank"
+									}
+									slot: 5
+								}
+								{
+									item: {
+										count: 1
+										id: "ars_nouveau:creative_source_jar"
+									}
+									slot: 6
+								}
+								{
+									item: {
+										count: 1
+										id: "draconicevolution:creative_op_capacitor"
+									}
+									slot: 7
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanism:creative_chemical_tank"
+									}
+									slot: 8
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanism_extras:upgrade_creative"
+									}
+									slot: 9
+								}
+								{
+									item: {
+										count: 1
+										id: "enderio:creative_power"
+									}
+									slot: 10
+								}
+								{
+									item: {
+										count: 1
+										id: "ae2:creative_storage_cell"
+									}
+									slot: 11
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanismadvancedgenerators:creative_solar_panel"
+									}
+									slot: 12
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanism_lasers:creative_toggleable_laser"
+									}
+									slot: 13
+								}
+								{
+									item: {
+										count: 1
+										id: "create:creative_blaze_cake"
+									}
+									slot: 14
+								}
+								{
+									item: {
+										count: 1
+										id: "create:creative_crate"
+									}
+									slot: 15
+								}
+								{
+									item: {
+										count: 1
+										id: "mekanism_lasers:creative_laser"
+									}
+									slot: 16
+								}
+								{
+									item: {
+										count: 1
+										id: "pneumaticcraft:creative_compressor"
+									}
+									slot: 17
+								}
+								{
+									item: {
+										count: 1
+										id: "pneumaticcraft:creative_compressed_iron_block"
+									}
+									slot: 18
+								}
+								{
+									item: {
+										count: 1
+										id: "pneumaticcraft:creative_upgrade"
+									}
+									slot: 19
+								}
+								{
+									item: {
+										count: 1
+										id: "powah:energy_cell_creative"
+									}
+									slot: 20
+								}
+								{
+									item: {
+										count: 1
+										id: "projecte:tome"
+									}
+									slot: 21
+								}
+								{
+									item: {
+										count: 1
+										id: "ae2:creative_energy_cell"
+									}
+									slot: 22
+								}
+							]
+						}
+						count: 1
+						id: "minecraft:shulker_box"
+					}
+					type: "item"
+				}
+				{
+					command: "/astages add @s creative_stage"
+					id: "6DD037ECE579D9F8"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "5DABAE3F70CFF05E"
+				item: { count: 1, id: "mind:finals_token" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
 	]
 }

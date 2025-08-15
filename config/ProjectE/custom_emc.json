@@ -4,6 +4,34 @@
     {
       "id": "mekanism:cardboard_box",
       "emc": 0
+    },
+    {
+      "id": "avaritia:neutron_pile",
+      "emc": 512000
+    },
+    {
+      "id": "minecraft:ancient_debris",
+      "emc": 12288
+    },
+    {
+      "id": "avaritia:blaze_cube",
+      "emc": 22856
+    },
+    {
+      "id": "extendedcrafting:black_iron_ingot",
+      "emc": 256
+    },
+    {
+      "id": "mysticalagradditions:creative_essence",
+      "emc": 1024000
+    },
+    {
+      "id": "mind:conversion_media",
+      "emc": 1456
+    },
+    {
+      "id": "projecte:dark_matter",
+      "emc": 37864000
     }
   ]
 }

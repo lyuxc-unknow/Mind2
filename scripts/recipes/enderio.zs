@@ -23,20 +23,12 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ]
 };
 
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
 }
 
 for output,inputs in shapedRecipes {
     CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeRecipeBuilder()
@@ -75,3 +67,16 @@ AlloySmelter.addRecipe(<item:minecraft:glass>,[<tag:item:c:sands>,<tag:item:c:cr
 	[<item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:mind:infinity_iron_mixed>, <item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>], 
 	[<item:minecraft:iron_bars>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:immersiveengineering:stick_iron>, <item:minecraft:iron_bars>]
 ]);
+
+CreateRecipeManager.addRecipe(<recipetype:create:mechanical_crafting>, new CreateRecipeBuilder()
+    .inputs([
+        [<item:minecraft:air>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:air>], 
+        [<item:extendedcrafting:enhanced_ender_ingot>, <item:enderio:soularium_ingot>, <item:enderio:soularium_ingot>, <item:enderio:soularium_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+        [<item:psi:ivory_psimetal>, <item:enderio:soularium_ingot>, <item:actuallyadditions:ender_casing>, <item:enderio:soularium_ingot>, <item:psi:ebony_psimetal>], 
+        [<item:extendedcrafting:enhanced_ender_ingot>, <item:enderio:soularium_ingot>, <item:enderio:soularium_ingot>, <item:enderio:soularium_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+        [<item:minecraft:air>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:minecraft:air>]
+    ])
+    .result(<item:enderio:ensouled_chassis>)
+    .acceptMirrored(true)
+);
+

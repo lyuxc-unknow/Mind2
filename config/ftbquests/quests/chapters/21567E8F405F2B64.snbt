@@ -72,5 +72,16 @@
 			x: 9.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["17B821906FB78546"]
+			id: "6D4FE54F6BD4EBC3"
+			tasks: [{
+				id: "3D78BC8B39055A9F"
+				item: { count: 1, id: "modular_angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
 	]
 }

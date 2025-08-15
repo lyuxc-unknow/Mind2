@@ -1,0 +1,28 @@
+#Maximum pattern slots size of Extended Pattern Provider. 
+#Only works when ExtendedAE is loaded. 
+#
+# Default: 36
+# Range: > 36
+maxPatternSize = 36
+#Maximum pattern slots size of Pattern Modifier. 
+#Only works when ExtendedAE is loaded. 
+#
+# Default: 27
+# Range: > 27
+maxPatternModifierSize = 27
+#Enable the Pattern Modifier pulling feature. 
+#When enabled, the pattern modifier will pull patterns from the pattern provider when used with shift held. 
+#This feature is only available when ExtendedAE is loaded. 
+#
+enablePatternModifierPulling = true
+#Allow extremely large amounts of items being configured in the interface. 
+#This will only take effects on ME Interfaces / ME Extended Interfaces. 
+#
+enableOversizedInterface = true
+#Preserve the contents of the InterfaceLogic when it is removed (destroyed or wrenched by player). 
+#When enabled, the contents will try to be preserved in the ME Storage first, and then done its default behavior  
+#(dropped on the ground or in the player's inventory) if the storage is not available or the storage is full. 
+#It's recommended to enable this option if you use the oversized interface,  
+#as you probably don't want to deal with too many dropped items or lose them if the number of item entities exceeds 1000. 
+#
+preserveInterfaceContents = true

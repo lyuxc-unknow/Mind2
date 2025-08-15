@@ -13,24 +13,8 @@ val removeItem as IItemStack[] = [
     <item:psi:cad_assembly_ebony_psimetal>
 ];
 
-val shapedRecipes as IIngredient[][][IItemStack] = {
-    
-};
-
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
-}
-
-for output,inputs in shapedRecipes {
-    CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeRecipeBuilder()

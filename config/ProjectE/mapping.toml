@@ -443,6 +443,11 @@ logFoundExploits = true
 			#Determines whether this Recipe Type Mapper is enabled.
 			enabled = true
 
+		#(AppliedE) Maps recipes from Applied Energistics 2 such as for In-world Transformation, the Charger and the Inscriber.
+		[mappers.Crafting-Mapper.AE2-Recipe-Mapper]
+			#Determines whether this Recipe Type Mapper is enabled.
+			enabled = true
+
 	#Set EMC=0 for everything in the c:raw_materials tag.
 	[mappers.Raw-Ore-Blacklist-Mapper]
 		#Determines whether this EMC Mapper is enabled.
@@ -475,6 +480,16 @@ logFoundExploits = true
 
 	#Allows adding custom conversions through CraftTweaker. This behaves similarly to if someone used a custom conversion file instead.
 	[mappers.CrT-Conversion-EMC-Mapper]
+		#Determines whether this EMC Mapper is enabled.
+		enabled = true
+
+	#(AppliedE) Maps Applied Energistics 2 cable facades.
+	[mappers.Facade-Mapper]
+		#Determines whether this EMC Mapper is enabled.
+		enabled = true
+
+	#(AppliedE) Maps Applied Energistics 2 P2P tunnels.
+	[mappers.P2P-Tunnel-Mapper]
 		#Determines whether this EMC Mapper is enabled.
 		enabled = true
 
@@ -586,5 +601,10 @@ logFoundExploits = true
 
 	#Increases the EMC value of any Mekanism items by the value of the stored or installed contents
 	[processors.Mek-Contents-Processor]
+		#Determines whether this Data Component Processor is enabled and can adjust the EMC value of items.
+		enabled = true
+
+	#(AppliedE) Calculates EMC value of Applied Energistics 2 inventory items such as cells and wireless terminals.
+	[processors.Inventory-Item-Processor]
 		#Determines whether this Data Component Processor is enabled and can adjust the EMC value of items.
 		enabled = true

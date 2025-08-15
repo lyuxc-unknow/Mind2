@@ -1,0 +1,7 @@
+#Enable or disable the multiplier button in pattern encoding terminals.  
+#Multiplier buttons allow you to multiply/divide processing pattern's input and  
+#output amounts by {2, 3, 5} by clicking the corresponding button.  
+#
+enableMultiplierButton = true
+#Display the amount of output items in encoded patterns while shift hold or in pattern access terminal/pattern provider.
+displayAmountOnEncodedPattern = true

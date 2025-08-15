@@ -8,24 +8,8 @@ val removeItem as IItemStack[] = [
     <item:draconicevolution:basic_crafting_injector>
 ];
 
-val shapedRecipes as IIngredient[][][IItemStack] = {
-    
-};
-
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for item in removeItem {
     craftingTable.remove(item);
-}
-
-for output,inputs in shapedRecipes {
-    CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 <recipetype:extendedcrafting:combination>.addRecipe("51d29bf6-b1d8-452e-9f90-7c4ba3b7f1ac", <item:draconicevolution:crafting_core>, <item:draconicevolution:draconium_core>, [

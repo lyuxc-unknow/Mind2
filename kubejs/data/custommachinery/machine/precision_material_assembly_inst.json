@@ -1,0 +1,134 @@
+{
+  "name": {
+    "text": "精密材料组装仪"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "mekanism:item.jetpack"
+      }
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:pressure",
+      "volume": 5000,
+      "danger": 20.0,
+      "critical": 25.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "ENABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 64.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "ENABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:heat",
+      "conduction": 5.465909090909091,
+      "insulation": 10.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "ENABLED",
+        "BACK": "DISABLED",
+        "LEFT": "ENABLED"
+      },
+      "capacity": 2575.7575757575755,
+      "base_temp": 37.87878787878788
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "width": 200,
+      "height": 150
+    },
+    {
+      "type": "custommachinery:heat",
+      "x": 12,
+      "y": 12
+    },
+    {
+      "type": "custommachinery:pressure",
+      "x": 40,
+      "y": 14
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input1",
+      "x": 87,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input2",
+      "x": 105,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input3",
+      "x": 123,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output",
+      "x": 169,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 143,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 20,
+      "y": 66
+    }
+  ]
+}

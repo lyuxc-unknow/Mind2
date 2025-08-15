@@ -23,3 +23,13 @@
 	[<item:mekanism:sps_casing>, <item:moremekanismprocessing:crystal_desh>, <item:mind:space_ice>, <item:mekanism:hdpe_stick>, <item:mind:space_ice>, <item:moremekanismprocessing:crystal_desh>, <item:mekanism:sps_casing>], 
 	[<item:mekanism:sps_casing>, <item:mekanism:sps_casing>, <item:mekanism:sps_casing>, <item:mekanism:sps_casing>, <item:mekanism:sps_casing>, <item:mekanism:sps_casing>, <item:mekanism:sps_casing>]
 ]);
+
+<recipetype:extendedcrafting:table>.addShaped("ef1a876d-5ab5-4e0f-a92a-957c56444b2d", 3, <item:custommachinery:custom_machine_item>.withJsonComponent(<componenttype:custommachinery:machine>, "custommachinery:precision_material_assembly_inst"), [
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:create:precision_mechanism>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:mekanism_extras:supreme_control_circuit>, <item:advanced_ae:quantum_processor>, <item:mekanism_extras:supreme_control_circuit>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:create:precision_mechanism>, <item:ae2:engineering_processor>, <item:ae2:calculation_processor>, <item:ae2:logic_processor>, <item:create:precision_mechanism>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:mekanism_extras:supreme_control_circuit>, <item:advanced_ae:quantum_processor>, <item:mekanism_extras:supreme_control_circuit>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:create:precision_mechanism>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>], 
+	[<item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>, <item:extendedcrafting:enhanced_ender_ingot>]
+]);

@@ -34,10 +34,6 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ]
 };
 
-val shapelessRecipes as IIngredient[][IItemStack] = {
-    
-};
-
 for id in removeById {
     craftingTable.removeByName(id);
 }
@@ -48,10 +44,6 @@ for item in removeItem {
 
 for output,inputs in shapedRecipes {
     CraftingTableRecipe.addShaped(output,inputs);
-}
-
-for output,inputs in shapelessRecipes {
-    CraftingTableRecipe.addShapeless(output,inputs);
 }
 
 LycheeRecipeManager.addRecipe(<recipetype:lychee:item_inside>, new LycheeRecipeBuilder()
