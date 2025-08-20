@@ -8,6 +8,14 @@ ServerEvents.recipes(event => {
         .requireChemical("10x mekanism:antimatter")
         .requireEnergyPerTick(1000)
 
+    custommachinery.custom_machine("custommachinery:antimatter_fusion_converter", 4800)
+        .produceItem("modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"mind:matter_tranformater\"]", "output")
+        .requireItem("enderio:ensouled_chassis")
+        .requireItem("enderio:z_logic_controller")
+        .requireItem("4x draconicevolution:wyvern_core")
+        .requireChemical("200x mekanism:antimatter")
+        .requireEnergyPerTick(1000)
+
     custommachinery.custom_machine("custommachinery:antimatter_fusion_converter", 200)
         .produceItem("minecraft:wither_skeleton_skull", "output")
         .requireItem("minecraft:skeleton_skull")

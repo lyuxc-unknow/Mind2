@@ -1,0 +1,35 @@
+{
+  "_comment": "Piglin trading configuration. Define custom trades here.",
+  "custom_trades": [
+    {
+      "result_item": "minecraft:diamond",
+      "result_count": 1,
+      "cost_a_item": "minecraft:gold_ingot",
+      "cost_a_count": 10,
+      "cost_b_item": "",
+      "cost_b_count": 0,
+      "max_uses": 5,
+      "experience": 10
+    },
+    {
+      "result_item": "minecraft:netherite_scrap",
+      "result_count": 1,
+      "cost_a_item": "minecraft:gold_ingot",
+      "cost_a_count": 20,
+      "cost_b_item": "",
+      "cost_b_count": 0,
+      "max_uses": 2,
+      "experience": 20
+    },
+    {
+      "result_item": "minecraft:enchanted_golden_apple",
+      "result_count": 1,
+      "cost_a_item": "minecraft:gold_ingot",
+      "cost_a_count": 32,
+      "cost_b_item": "minecraft:apple",
+      "cost_b_count": 1,
+      "max_uses": 1,
+      "experience": 50
+    }
+  ]
+}

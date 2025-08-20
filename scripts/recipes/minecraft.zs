@@ -12,7 +12,8 @@ val removeItem as IItemStack[] = [
     <item:minecraft:lodestone>,
     <item:minecraft:cauldron>,
     <item:minecraft:flint_and_steel>,
-    <item:minecraft:ender_eye>
+    <item:minecraft:ender_eye>,
+    <item:minecraft:end_crystal>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -30,6 +31,11 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<tag:item:c:ingots/dark_steel>,<item:minecraft:air>,<tag:item:c:ingots/dark_steel>],
         [<tag:item:c:ingots/dark_steel>,<item:minecraft:air>,<tag:item:c:ingots/dark_steel>],
         [<tag:item:c:ingots/dark_steel>,<tag:item:c:ingots/dark_steel>,<tag:item:c:ingots/dark_steel>]
+    ],
+    <item:minecraft:end_crystal>: [
+        [<item:minecraft:glass>, <item:minecraft:glass>, <item:minecraft:glass>], 
+        [<item:minecraft:glass>, <item:extendedcrafting:ender_star>, <item:minecraft:glass>], 
+        [<item:minecraft:glass>, <item:minecraft:ghast_tear>, <item:minecraft:glass>]
     ]
 };
 

@@ -3,6 +3,7 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 
 <recipetype:create:crushing>.removeAll();
+<recipetype:create:sequenced_assembly>.remove(<item:create:precision_mechanism>);
 
 val removeById as string[] =[
     "create:crafting/materials/andesite_alloy",
@@ -11,14 +12,14 @@ val removeById as string[] =[
 ];
 
 val removeItem as IItemStack[] = [
-    <item:create:belt_connector>,
     <item:create:shaft>,
     <item:create:cogwheel>,
     <item:create:millstone>,
     <item:create:sail_frame>,
     <item:create:white_sail>,
     <item:create:water_wheel>,
-    <item:create:windmill_bearing>
+    <item:create:windmill_bearing>,
+    <item:create:propeller>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -31,6 +32,11 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<tag:item:minecraft:planks>,<item:immersiveengineering:waterwheel_segment>,<tag:item:minecraft:planks>],
         [<item:immersiveengineering:waterwheel_segment>,<item:create:shaft>,<item:immersiveengineering:waterwheel_segment>],
         [<tag:item:minecraft:planks>,<item:immersiveengineering:waterwheel_segment>,<tag:item:minecraft:planks>]
+    ],
+    <item:create:propeller>: [
+        [<item:minecraft:air>, <tag:item:c:plates/steel>, <item:minecraft:air>], 
+        [<tag:item:c:plates/steel>, <item:create:andesite_alloy>, <tag:item:c:plates/steel>], 
+        [<item:minecraft:air>, <tag:item:c:plates/steel>, <item:minecraft:air>]
     ]
 };
 
@@ -99,4 +105,38 @@ CreateRecipeManager.addRecipe(<recipetype:create:mechanical_crafting>, new Creat
     .inputs(recipes)
     .acceptMirrored(true)
     .result(<item:create:creative_motor>)
+);
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeRecipeBuilder()
+    .blockIn(<block:melter:melter>)
+    .itemIn(<item:create:andesite_alloy>)
+    .post([
+        LycheePosts.placeBlock(<block:create:basin>),
+        LycheePosts.executeCommand("particle minecraft:enchant ~ ~1 ~ 0.5 0.5 0.5 0 1000 force",true,false),
+        LycheePosts.executeCommand("particle minecraft:end_rod ~ ~1 ~ 0.5 0.5 0.5 0 80 force",true,false),
+    ])
+);
+
+CreateRecipeManager.addRecipe(<recipetype:create:sequenced_assembly>, new CreateRecipeBuilder()
+    .input(<item:create:golden_sheet>)
+    .loops(5)
+    .results([
+        <item:create:precision_mechanism> % 12000,
+        <item:create:golden_sheet> % 800,
+        <item:create:andesite_alloy> % 800,
+        <item:create:cogwheel> % 500,
+        <item:minecraft:gold_ingot> % 300,
+        <item:create:shaft> % 200,
+        <item:ytech:crushed_gold> % 200,
+        <item:minecraft:iron_ingot>,
+        <item:minecraft:clock>
+    ])
+    .sequence([
+        CreateInputs.deploying(<item:create:cogwheel>),
+        CreateInputs.deploying(<item:create:large_cogwheel>),
+        CreateInputs.deploying(<item:twilightforest:knightmetal_ring>),
+        CreateInputs.pressing(),
+        CreateInputs.filling(<fluid:pneumaticcraft:lubricant> * 100)
+        
+    ],<item:create:incomplete_precision_mechanism>)
 );

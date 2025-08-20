@@ -1,0 +1,10 @@
+craftingTable.remove(<item:sgjourney:classic_stargate_base_block>);
+<recipetype:extendedcrafting:table>.addShaped("e34cc235-4bea-4959-9e49-479385db6be9", 3, <item:sgjourney:classic_stargate_base_block>, [
+	[<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:control_crystal>, <item:sgjourney:transfer_crystal>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:sgjourney:communication_crystal>], 
+	[<item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>], 
+	[<item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:stellaris:heavy_metal_ingot>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>], 
+	[<item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>], 
+	[<item:sgjourney:communication_crystal>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:sgjourney:transfer_crystal>, <item:sgjourney:control_crystal>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>]
+]);

@@ -103,3 +103,5 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:anvil_crafting>, new LycheeReci
     .anvilLevelCost(20),
     "unbreakable_graphite_electrode"
 );
+
+AlloySmelter.addRecipe(<item:immersiveengineering:insulating_glass>,[<tag:item:c:glass_blocks>,<item:immersiveengineering:dust_iron>],4800,1.0);

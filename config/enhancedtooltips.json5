@@ -137,7 +137,7 @@
 		/* Shows the durability of an item, represented by a bar, in its tooltip.
 		   (default: false)
 		*/
-		"durabilityBar": false
+		"durabilityBar": true
 	},
 	"heldItemTooltip": {
 		/* Toggles the improved held items tooltips feature.

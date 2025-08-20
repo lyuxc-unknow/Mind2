@@ -7,7 +7,8 @@ val removeItem as IItemStack[] = [
     <item:extendedcrafting:basic_table>,
     <item:extendedcrafting:elite_table>,
     <item:extendedcrafting:ender_crafter>,
-    <item:extendedcrafting:crafting_core>
+    <item:extendedcrafting:crafting_core>,
+    <item:extendedcrafting:pedestal>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -18,8 +19,13 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     <item:extendedcrafting:crafting_core>: [
         [<item:extendedcrafting:black_iron_ingot>, <item:extendedcrafting:elite_catalyst>, <item:extendedcrafting:black_iron_ingot>], 
-        [<item:extendedcrafting:elite_component>, <item:extendedcrafting:frame>, <item:extendedcrafting:elite_component>], 
+        [<item:enderio:guardian_diode>, <item:extendedcrafting:frame>, <item:enderio:sentient_ender>], 
         [<item:extendedcrafting:black_iron_ingot>, <item:enderio:frank_n_zombie>, <item:extendedcrafting:black_iron_ingot>]
+    ],
+    <item:extendedcrafting:pedestal>: [
+        [<item:minecraft:air>,,<item:minecraft:air>],
+        [],
+        []
     ]
 };
 

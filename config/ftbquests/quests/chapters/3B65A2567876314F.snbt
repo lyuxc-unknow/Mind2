@@ -4,11 +4,11 @@
 	filename: "3B65A2567876314F"
 	group: "111EC4308BE820AB"
 	id: "3B65A2567876314F"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["18BE962186897B52"]
+			dependencies: ["47F886D17E9C60BD"]
 			id: "08247DB65DC8619E"
 			rewards: [{
 				command: "/astages add @s the_end"
@@ -289,13 +289,6 @@
 										id: "ae2:creative_storage_cell"
 									}
 									slot: 11
-								}
-								{
-									item: {
-										count: 1
-										id: "mekanismadvancedgenerators:creative_solar_panel"
-									}
-									slot: 12
 								}
 								{
 									item: {

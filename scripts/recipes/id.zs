@@ -12,3 +12,5 @@ val removeItem as IItemStack[] = [
 for item in removeItem {
     craftingTable.remove(item);
 }
+
+AlloySmelter.addRecipe(<item:integratedterminals:menril_glass>,[<tag:item:c:glass_blocks>,<item:integrateddynamics:crystalized_menril_chunk>],4800,1.0);

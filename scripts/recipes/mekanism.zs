@@ -37,10 +37,24 @@ PressureChamber.addRecipe([<item:mekanism:steel_casing>],[
 ]);
 
 <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/basic");
-<recipetype:mekanism:metallurgic_infusing>.addRecipe("mekanism_basic_control_circuit",<item:pneumaticcraft:unassembled_pcb>,<chemical:mekanism:redstone> * 90,<item:mekanism:basic_control_circuit>,false);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("control_circuit/basic",<item:pneumaticcraft:unassembled_pcb>,<chemical:mekanism:redstone> * 90,<item:mekanism:basic_control_circuit>,false);
 
 <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/atomic");
-<recipetype:mekanism:metallurgic_infusing>.addRecipe("mekanism_atomic_alloy",<item:mekanism:alloy_reinforced>,<chemical:crafttweaker:draconium> * 90,<item:mekanism:alloy_atomic>,false);
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("metallurgic_infusing/alloy/atomic",<item:mekanism:alloy_reinforced>,<chemical:crafttweaker:draconium> * 90,<item:mekanism:alloy_atomic>,false);
+
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/infused_ultimate");
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("mekanism_control_circuit/infused_ultimate",<tag:item:c:circuits/elite>,<chemical:crafttweaker:draconium> * 90,<item:mekanism:ultimate_control_circuit>,false);
+
 
 <recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/reinforced");
 <recipetype:mekanism:metallurgic_infusing>.addRecipe("metallurgic_infusing/alloy/reinforced", <tag:item:mekanism:alloys/infused>, <chemical:crafttweaker:crystaltine> * 30, <item:mekanism:alloy_reinforced>, false);
+
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/infused_elite");
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("control_circuit/infused_elite", <item:mekanism:advanced_control_circuit>, <chemical:crafttweaker:crystaltine> * 30, <item:mekanism:elite_control_circuit>, false);
+
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:control_circuit/infused_advanced");
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:metallurgic_infusing/alloy/infused");
+<recipetype:mekanism:metallurgic_infusing>.addRecipe("metallurgic_infusing/alloy/infused", <tag:item:c:ingots/fiery>, <chemical:mekanism:redstone> * 10, <item:mekanism:alloy_infused>, false);
+
+
+AlloySmelter.addRecipe(<item:mekanism:ingot_bronze>,[<item:minecraft:copper_ingot> * 9,<item:mekanism:ingot_tin>],4800,1.0);

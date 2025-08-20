@@ -16,7 +16,7 @@ for item in removeItem {
 
 craftingTable.removeByName("projecte:dark_matter");
 
-DEFusionCrafting.addRecipe(<item:projecte:philosophers_stone>.withJsonComponent(<componenttype:projecte:charge>, 4),<item:minecraft:diamond>,[
+DEFusionCrafting.addRecipe(<item:projecte:philosophers_stone>.withJsonComponent(<componenttype:projecte:charge>, 1),<item:mind:empty_philosophers_stone>,[
     DEIngredientFeat.of(<item:sgjourney:advanced_transfer_crystal>),
     DEIngredientFeat.of(<item:sgjourney:advanced_transfer_crystal>),
     DEIngredientFeat.of(<item:sgjourney:advanced_transfer_crystal>),

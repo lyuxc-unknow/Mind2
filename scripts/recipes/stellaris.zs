@@ -1,4 +1,6 @@
-
+craftingTable.remove(<item:stellaris:rocket_engine>);
+craftingTable.remove(<item:stellaris:rocket_fin>);
+craftingTable.remove(<item:stellaris:rocket_nose_cone>);
 craftingTable.remove(<item:stellaris:rocket_launch_pad>);
 <recipetype:extendedcrafting:table>.addShaped("50cf3756-cc76-4eeb-aab1-0a12c7234cdb", 3, <item:stellaris:rocket_launch_pad> * 3, [
 	[<item:minecraft:air>, <item:enderio:dark_steel_ingot>, <item:enderio:dark_steel_ingot>, <item:enderio:dark_steel_ingot>, <item:enderio:dark_steel_ingot>, <item:enderio:dark_steel_ingot>, <item:minecraft:air>], 

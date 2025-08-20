@@ -1,3 +1,6 @@
+import crafttweaker.api.data.IData;
+import crafttweaker.api.data.MapData;
+
 craftingTable.removeByName("tiab:time_in_a_bottle");
 LycheeRecipeManager.addRecipe(<recipetype:lychee:item_inside>,new LycheeRecipeBuilder()
     .itemIn(<item:naturesaura:bottle_two_the_rebottling>)

@@ -10,11 +10,28 @@ val removeItem as IItemStack[] = [
 	<item:ae2additions:me_wireless_transceiver>,
 	<item:extendedae:infinity_cobblestone_cell>,
     <item:extendedae:infinity_water_cell>,
-	<item:extendedae:machine_frame>
+	<item:extendedae:machine_frame>,
+	<item:ae2:semi_dark_monitor>,
+	<item:ae2:quartz_fiber>,
+	<item:ae2:cell_component_1k>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
-    
+    <item:ae2:semi_dark_monitor> * 3: [
+		[<item:minecraft:air>, <tag:item:c:dusts/glowstone>, <item:ae2:quartz_glass>], 
+		[<tag:item:c:ingots/iron>, <item:integrateddynamics:part_static_light_panel>, <item:ae2:quartz_glass>], 
+		[<item:minecraft:air>, <tag:item:c:dusts/glowstone>, <item:ae2:quartz_glass>]
+	],
+	<item:ae2:quartz_fiber> * 3: [
+		[<tag:item:c:glass_blocks>, <tag:item:c:glass_blocks>, <tag:item:c:glass_blocks>], 
+		[<item:integrateddynamics:crystalized_menril_chunk>, <tag:item:ae2:all_quartz_dust>, <item:integrateddynamics:crystalized_menril_chunk>], 
+		[<tag:item:c:glass_blocks>, <tag:item:c:glass_blocks>, <tag:item:c:glass_blocks>]
+	],
+	<item:ae2:cell_component_1k>: [
+		[<tag:item:c:dusts/redstone>, <tag:item:ae2:all_certus_quartz>, <tag:item:c:dusts/redstone>], 
+		[<tag:item:ae2:all_certus_quartz>, <item:mekanism:basic_control_circuit>, <tag:item:ae2:all_certus_quartz>], 
+		[<tag:item:c:dusts/redstone>, <tag:item:ae2:all_certus_quartz>, <tag:item:c:dusts/redstone>]
+	]
 };
 
 val shapelessRecipes as IIngredient[][IItemStack] = {

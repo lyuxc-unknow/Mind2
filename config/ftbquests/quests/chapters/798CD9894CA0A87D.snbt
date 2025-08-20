@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2E4928CB76229D67"]
 			id: "2D853FC9EE64546C"
 			tasks: [{
 				id: "41D21ED2E8F7EFA3"
@@ -427,6 +428,14 @@
 		{
 			dependencies: ["2352E8B4BB58E303"]
 			id: "6962B30A7F0CF795"
+			rewards: [{
+				id: "0CD5635A732DED6D"
+				item: {
+					count: 1
+					id: "pylons:infusion_pylon"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "634B98F366F14D80"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }

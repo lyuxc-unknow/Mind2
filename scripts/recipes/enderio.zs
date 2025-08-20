@@ -7,7 +7,8 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 val removeItem as IItemStack[] = [
     <item:enderio:wood_gear>,
     <item:enderio:primitive_alloy_smelter>,
-    <item:enderio:void_chassis>
+    <item:enderio:void_chassis>,
+    <item:enderio:ensouled_chassis>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {

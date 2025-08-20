@@ -18,9 +18,9 @@
 		}]
 		tasks: [{
 			consume_items: true
-			count: 64L
-			id: "7359D13AEE956AB9"
-			item: { count: 1, id: "enderio:reinforced_obsidian_block" }
+			count: 32L
+			id: "54DADFF5452542DD"
+			item: { count: 32, id: "minecraft:netherrack" }
 			type: "item"
 		}]
 		x: -2.0d

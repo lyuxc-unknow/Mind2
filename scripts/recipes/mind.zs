@@ -3,6 +3,8 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.util.math.BlockPos;
 
+craftingTable.removeByName("cookingforblockheads:sink");
+
 val shapedRecipes as IIngredient[][][IItemStack] = {
     <item:mind:rough_grinding_iron_ingot>: [
         [<item:minecraft:air>,<item:minecraft:diorite>,<item:minecraft:air>],
@@ -13,6 +15,15 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>],
         [<tag:item:actuallyadditions:tiny_coals>,<tag:item:c:clay>,<tag:item:actuallyadditions:tiny_coals>],
         [<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>,<tag:item:actuallyadditions:tiny_coals>]
+    ],
+    <item:mind:annihilation_dye_with_dirt>:[
+        [<item:mind:end_petal>],
+        [<item:minecraft:podzol>]
+    ],
+    <item:cookingforblockheads:sink>: [
+        [<tag:item:c:ingots/iron>, <tag:item:c:ingots/iron>, <tag:item:c:ingots/iron>], 
+        [<item:minecraft:terracotta>, <item:mekanism:basic_fluid_tank>.withJsonComponent(<componenttype:mekanism:bucket_mode>, true).withJsonComponent(<componenttype:mekanism:fluids>, {fluid_tanks: [{id: "minecraft:water", amount: 32000}]}), <item:minecraft:terracotta>], 
+        [<item:minecraft:terracotta>, <item:minecraft:terracotta>, <item:minecraft:terracotta>]
     ]
 };
 
@@ -88,3 +99,23 @@ craftingTable.addShaped("unbreakable_netherite_aiot",<item:actuallyadditions:net
 	[<item:avaritia:infinity_ingot>, <item:torcherino:the_unknown_torcherino>, <item:avaritia:infinity_ingot>], 
 	[<item:projecte:red_matter_block>, <item:avaritia:infinity_ingot>, <item:projecte:red_matter_block>]
 ]);
+
+<recipetype:extendedcrafting:table>.addShaped("6b43f8c1-9294-466f-983c-9ec80a0aba0f", 3, <item:mind:empty_philosophers_stone>, [
+	[<item:minecraft:air>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:minecraft:air>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:twilightforest:fiery_ingot>, <item:twilightforest:knightmetal_ingot>, <item:twilightforest:fiery_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:twilightforest:alpha_yeti_fur>, <item:psi:ebony_psimetal_block>, <item:naturesaura:token_terror>, <item:psi:ivory_psimetal_block>, <item:twilightforest:naga_scale>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:twilightforest:knightmetal_ingot>, <item:naturesaura:token_rage>, <item:twilightforest:mystic_crown>, <item:naturesaura:token_euphoria>, <item:twilightforest:knightmetal_ingot>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:twilightforest:alpha_yeti_fur>, <item:psi:ivory_psimetal_block>, <item:naturesaura:token_grief>, <item:psi:ebony_psimetal_block>, <item:twilightforest:naga_scale>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:twilightforest:ironwood_ingot>, <item:twilightforest:knightmetal_ingot>, <item:twilightforest:ironwood_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>], 
+	[<item:minecraft:air>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>, <item:minecraft:air>]
+]);
+
+CreateRecipeManager.addRecipe(<recipetype:create:mixing>, new CreateRecipeBuilder()
+    .heatRequirement("superheated")
+    .inputs([
+        <item:enderio:grains_of_infinity>,<item:enderio:grains_of_infinity>,<item:enderio:grains_of_infinity>,
+        <item:enderio:grains_of_infinity>,<item:extendedcrafting:black_iron_nugget>,
+        <item:extendedcrafting:black_iron_nugget>,<item:extendedcrafting:black_iron_nugget>,<item:extendedcrafting:black_iron_nugget>
+    ])
+    .results([<item:mind:infinity_iron_mixed> * 4])
+);

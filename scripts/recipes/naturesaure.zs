@@ -67,8 +67,17 @@ NatureAlter.addRecipe(<item:naturesaura:infused_iron>,<tag:item:c:ingots>,2000,8
 Offering.addRecipe(<item:naturesaura:sky_ingot_block>,<item:naturesaura:calling_spirit>,<item:naturesaura:infused_iron_block>);
 
 LycheeRecipeManager.addRecipe(<recipetype:lychee:block_interacting>, new LycheeRecipeBuilder()
+    .setHideInJEI(true)
     .blockIn(<block:mind:annihilation_dye_with_dirt>)
     .itemIn(<item:minecraft:bone_meal>)
     .condition(LycheeConditions.block(<block:minecraft:podzol>, new BlockPos(0,-1,0)))
     .post([LycheePosts.placeBlock(<block:naturesaura:end_flower>),LycheePosts.placeBlock(<block:minecraft:end_stone>, new BlockPos(0,-1,0))])
 );
+
+LycheeRecipeManager.addRecipe(<recipetype:lychee:random_block_ticking>, new LycheeRecipeBuilder()
+    .blockIn(<block:mind:annihilation_dye_with_dirt>)
+    .condition(LycheeConditions.block(<block:minecraft:podzol>, new BlockPos(0,-1,0)))
+    .post([LycheePosts.placeBlock(<block:naturesaura:end_flower>),LycheePosts.placeBlock(<block:minecraft:end_stone>, new BlockPos(0,-1,0))])
+);
+
+AlloySmelter.addRecipe(<item:naturesaura:gold_fiber>,[<item:minecraft:gold_nugget> * 4,<item:ytech:grass_fibers>],4800,1.0);

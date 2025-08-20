@@ -244,10 +244,17 @@
   "mysticalagradditions": {
     "infused_farmland": true
   },
+  "twilightforest": {
+    "chiseled_bookshelf_spawner": true,
+    "quest_ram_wool": true
+  },
   "mysticalagriculture": {
     "infused_farmland": true,
     "crop": true,
     "inferium_crop": true
+  },
+  "ae2labeledpatterns": {
+    "pattern_provider_label": true
   },
   "modular_machinery_reborn": {
     "machine_component_provider": true

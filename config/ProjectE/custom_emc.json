@@ -32,6 +32,10 @@
     {
       "id": "projecte:dark_matter",
       "emc": 37864000
+    },
+    {
+      "id": "mind:end_petal",
+      "emc": 32
     }
   ]
 }
