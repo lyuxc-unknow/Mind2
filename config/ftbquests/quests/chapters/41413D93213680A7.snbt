@@ -9,14 +9,24 @@
 	quests: [
 		{
 			id: "3DBC55B55898376D"
-			rewards: [{
-				id: "783BA45A4212B4F4"
-				item: {
-					count: 1
-					id: "torcherino:torcherino"
+			rewards: [
+				{
+					id: "783BA45A4212B4F4"
+					item: {
+						count: 1
+						id: "torcherino:torcherino"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "63C03DEEA663CD14"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0DBC35003B5C9D77"
 				type: "checkmark"
@@ -27,6 +37,14 @@
 		{
 			dependencies: ["3DBC55B55898376D"]
 			id: "59AAAEB93E6653C5"
+			rewards: [{
+				id: "4D83BB28A54DDB31"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A283B04386C7B10"
 				item: { count: 1, id: "minecraft:flint" }
@@ -38,6 +56,14 @@
 		{
 			dependencies: ["59AAAEB93E6653C5"]
 			id: "3C1383C9F2A9FBDE"
+			rewards: [{
+				id: "05628083378C6A0C"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "651F7AA534BD5A19"
 				item: { count: 1, id: "ytech:sharp_flint" }
@@ -49,6 +75,14 @@
 		{
 			dependencies: ["3C1383C9F2A9FBDE"]
 			id: "4B65AFFE247662A0"
+			rewards: [{
+				id: "4A3DC7BFD17E1293"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "25CCF534D8A42686"
 				item: { count: 1, id: "ytech:grass_fibers" }
@@ -60,6 +94,14 @@
 		{
 			dependencies: ["4B65AFFE247662A0"]
 			id: "4B6B60F433D05D83"
+			rewards: [{
+				id: "2C12A79FE3C82CAC"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7136A039154ED244"
 				item: { count: 1, id: "ytech:crafting_workspace" }
@@ -71,6 +113,14 @@
 		{
 			dependencies: ["4B6B60F433D05D83"]
 			id: "24C80F5BE3CD2544"
+			rewards: [{
+				id: "679356FD6361AD3D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "797730CA8A18A023"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(ytech:tanning_racks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -82,6 +132,14 @@
 		{
 			dependencies: ["24C80F5BE3CD2544"]
 			id: "161FE2FEF8A19AB4"
+			rewards: [{
+				id: "2DCCE7DC9B05BE62"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EEB8BD36DD438DF"
 				item: { count: 1, id: "minecraft:leather" }
@@ -93,6 +151,14 @@
 		{
 			dependencies: ["161FE2FEF8A19AB4"]
 			id: "2EA619EC6BE110A5"
+			rewards: [{
+				id: "3257B597473E3364"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "026ED9DE92365085"
 				item: { count: 1, id: "minecraft:crafting_table" }
@@ -104,6 +170,14 @@
 		{
 			dependencies: ["2EA619EC6BE110A5"]
 			id: "4087D6845BD8260C"
+			rewards: [{
+				id: "2915FC90387A05BE"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A280A00E517BAF0"
 				item: { count: 1, id: "pickletweaks:flint_pickaxe" }
@@ -115,6 +189,14 @@
 		{
 			dependencies: ["4087D6845BD8260C"]
 			id: "7F59D309CC210599"
+			rewards: [{
+				id: "53B2FABBDC13B2DA"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "785747C0995AD1AC"
 				item: { count: 1, id: "minecraft:raw_copper" }
@@ -126,6 +208,14 @@
 		{
 			dependencies: ["7F59D309CC210599"]
 			id: "30619C4BDA86D1C4"
+			rewards: [{
+				id: "54F819BB3A449161"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F2AF51885237FCF"
 				item: { count: 1, id: "ytech:millstone" }
@@ -137,6 +227,14 @@
 		{
 			dependencies: ["2EA619EC6BE110A5"]
 			id: "64B81EFE7BC4B02B"
+			rewards: [{
+				id: "2FD041A7B2F881B6"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B2A6381BE20B946"
 				item: { count: 1, id: "minecraft:campfire" }
@@ -148,6 +246,14 @@
 		{
 			dependencies: ["64B81EFE7BC4B02B"]
 			id: "2E299EAC5665AF35"
+			rewards: [{
+				id: "012414765A486632"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20AE2FB4BD12623F"
 				item: { count: 1, id: "minecraft:furnace" }
@@ -159,6 +265,14 @@
 		{
 			dependencies: ["2E299EAC5665AF35"]
 			id: "015C11BA434E7D09"
+			rewards: [{
+				id: "24A18C1F51B4CAE8"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "255858F2AB65ABA0"
 				item: { count: 1, id: "ytech:primitive_alloy_smelter" }
@@ -170,6 +284,14 @@
 		{
 			dependencies: ["2E299EAC5665AF35"]
 			id: "4E283F39245B5083"
+			rewards: [{
+				id: "133EE0EB7412925D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "77B955D278C8FF48"
 				item: { count: 1, id: "ytech:primitive_smelter" }
@@ -181,6 +303,14 @@
 		{
 			dependencies: ["4E283F39245B5083"]
 			id: "17C07044C3B3415A"
+			rewards: [{
+				id: "2245528FDCACB44A"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "17E315C5A92402D6"
 				item: { count: 1, id: "ytech:ingot_sand_mold" }
@@ -195,6 +325,14 @@
 				"17D4888C5027577F"
 			]
 			id: "78131489EE157923"
+			rewards: [{
+				id: "066FED90FAB766E0"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "539DDA40256BA1E9"
@@ -213,6 +351,14 @@
 		{
 			dependencies: ["4E283F39245B5083"]
 			id: "17D4888C5027577F"
+			rewards: [{
+				id: "03CE6145E309287E"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "2E154242A6F8EB8A"
@@ -225,6 +371,14 @@
 		{
 			dependencies: ["015C11BA434E7D09"]
 			id: "4D8AAC9E41BD349C"
+			rewards: [{
+				id: "32CFBC167B9E42F3"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 4L
 				id: "7BDEF63E9F5DB25F"
@@ -237,6 +391,14 @@
 		{
 			dependencies: ["4D8AAC9E41BD349C"]
 			id: "636B578001897DCB"
+			rewards: [{
+				id: "10177141C0698A1D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F3EEFB16BAF8601"
 				item: { count: 1, id: "mekanism:ingot_bronze" }
@@ -248,6 +410,14 @@
 		{
 			dependencies: ["636B578001897DCB"]
 			id: "5F61EC6473A71888"
+			rewards: [{
+				id: "39B53260493D2A72"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4368F099446554E0"
 				item: { count: 1, id: "ytech:bronze_anvil" }
@@ -259,6 +429,14 @@
 		{
 			dependencies: ["5F61EC6473A71888"]
 			id: "3724CD1DD8FE34FF"
+			rewards: [{
+				id: "1F154B28C23EC5EE"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "339ECA64BF120B83"
 				item: { count: 1, id: "ytech:iron_bloom" }
@@ -270,6 +448,14 @@
 		{
 			dependencies: ["3724CD1DD8FE34FF"]
 			id: "124B9063F8B21CB3"
+			rewards: [{
+				id: "6B40F8A186C22711"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B1ED9846A553890"
 				item: { count: 1, id: "minecraft:iron_ingot" }
@@ -281,6 +467,14 @@
 		{
 			dependencies: ["30619C4BDA86D1C4"]
 			id: "2E9A26267AA1471E"
+			rewards: [{
+				id: "667919CB02070B84"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43FFEADAEC0FCCC1"
 				item: { count: 1, id: "ytech:crushed_gold" }
@@ -292,6 +486,14 @@
 		{
 			dependencies: ["2E9A26267AA1471E"]
 			id: "25793268598F9C4D"
+			rewards: [{
+				id: "0105859B5DDAA2C4"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F9B60554BC4D9F9"
 				item: { count: 1, id: "minecraft:gold_ingot" }
@@ -303,6 +505,14 @@
 		{
 			dependencies: ["25793268598F9C4D"]
 			id: "27DFB6B670E3E1C3"
+			rewards: [{
+				id: "54188DEF76625CD7"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3EBB11366DE26415"
 				item: { count: 1, id: "naturesaura:gold_fiber" }
@@ -314,6 +524,14 @@
 		{
 			dependencies: ["27DFB6B670E3E1C3"]
 			id: "2EC73B0C4A48EC6A"
+			rewards: [{
+				id: "4E91596093757E23"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1BFB66D2CAAC1545"
 				item: { count: 1, id: "naturesaura:gold_powder" }
@@ -325,6 +543,14 @@
 		{
 			dependencies: ["2EC73B0C4A48EC6A"]
 			id: "6E628F8D9005FE28"
+			rewards: [{
+				id: "02D91F68289B8ED5"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C92FB099929C240"
 				item: { count: 1, id: "naturesaura:wood_stand" }
@@ -336,6 +562,14 @@
 		{
 			dependencies: ["6E628F8D9005FE28"]
 			id: "40782DCBB25441CD"
+			rewards: [{
+				id: "3AC46BF6686DA84B"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E708A916F372C2A"
 				item: { count: 1, id: "naturesaura:ancient_sapling" }
@@ -347,14 +581,24 @@
 		{
 			dependencies: ["40782DCBB25441CD"]
 			id: "164275AAAF674A67"
-			rewards: [{
-				id: "63423B5C6C6080E9"
-				item: {
-					count: 1
-					id: "naturesaura:token_sorrow"
+			rewards: [
+				{
+					id: "63423B5C6C6080E9"
+					item: {
+						count: 1
+						id: "naturesaura:token_sorrow"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "032C1DDD40A86433"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "198FF7916D3E18BC"
 				item: { count: 1, id: "naturesaura:token_joy" }
@@ -366,6 +610,14 @@
 		{
 			dependencies: ["164275AAAF674A67"]
 			id: "3C081CB83AC79FC9"
+			rewards: [{
+				id: "51B43C24D47CB6D8"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "43AC4552ED29C650"
 				item: { count: 1, id: "naturesaura:nature_altar" }
@@ -377,6 +629,14 @@
 		{
 			dependencies: ["124B9063F8B21CB3"]
 			id: "6494EC332F2A55FB"
+			rewards: [{
+				id: "7B445395BBD206DF"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BBF9E5CD5E87787"
 				item: { count: 1, id: "mind:rough_grinding_iron_ingot" }
@@ -391,15 +651,25 @@
 				"6494EC332F2A55FB"
 			]
 			id: "0A02BDDC88EA8E98"
-			rewards: [{
-				count: 5
-				id: "5B166B50C64B80E5"
-				item: {
-					count: 1
-					id: "minecraft:soul_sand"
+			rewards: [
+				{
+					count: 5
+					id: "5B166B50C64B80E5"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "299233182D7CF567"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2421109A59F2F602"
 				item: { count: 1, id: "naturesaura:infused_iron" }
@@ -411,6 +681,14 @@
 		{
 			dependencies: ["4B6B60F433D05D83"]
 			id: "510A092085DEC12A"
+			rewards: [{
+				id: "79B226758453645F"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AE1D90CFFE4EF4E"
 				item: { count: 1, id: "minecraft:smoker" }
@@ -422,6 +700,14 @@
 		{
 			dependencies: ["510A092085DEC12A"]
 			id: "389477C370A57CBC"
+			rewards: [{
+				id: "17B2F28F1608D201"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C815FFE550893A6"
 				item: { count: 1, id: "immersiveengineering:clinker_brick" }
@@ -433,6 +719,14 @@
 		{
 			dependencies: ["389477C370A57CBC"]
 			id: "57482DC937632C48"
+			rewards: [{
+				id: "6542017FE34A7D78"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 27L
 				id: "6083075B4A262A64"
@@ -445,6 +739,14 @@
 		{
 			dependencies: ["57482DC937632C48"]
 			id: "092A27C2079BD410"
+			rewards: [{
+				id: "22B89E5952AAE867"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 8L
 				id: "7FC9CA064689A63C"
@@ -457,6 +759,14 @@
 		{
 			dependencies: ["092A27C2079BD410"]
 			id: "0DCF62C4D5C991E1"
+			rewards: [{
+				id: "626DC821D333EF8D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "64705B5EFB49FB0D"
 				item: { count: 1, id: "create:shaft" }
@@ -468,6 +778,14 @@
 		{
 			dependencies: ["0DCF62C4D5C991E1"]
 			id: "3B4404DACF80675D"
+			rewards: [{
+				id: "0C18B19E1BB686C9"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -488,6 +806,14 @@
 		{
 			dependencies: ["3B4404DACF80675D"]
 			id: "5CD1ECC535464725"
+			rewards: [{
+				id: "791AE9098C896A4B"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "349485B5C2ED0F5C"
 				item: { count: 1, id: "create:andesite_casing" }
@@ -499,6 +825,14 @@
 		{
 			dependencies: ["5CD1ECC535464725"]
 			id: "2D2A336C708EAE07"
+			rewards: [{
+				id: "47C47C7AE5543E4F"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "74DEE1C090DC5136"
 				item: { count: 1, id: "create:encased_fan" }
@@ -510,6 +844,14 @@
 		{
 			dependencies: ["2D2A336C708EAE07"]
 			id: "45AF77AFF37866BF"
+			rewards: [{
+				id: "5431C2414AF24A62"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F169B2A1C14B13B"
 				item: { count: 1, id: "minecraft:ghast_tear" }
@@ -524,6 +866,14 @@
 				"0A02BDDC88EA8E98"
 			]
 			id: "5D574B7B01143E52"
+			rewards: [{
+				id: "4DD2A7219D2F6AD2"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -543,6 +893,14 @@
 		{
 			dependencies: ["5D574B7B01143E52"]
 			id: "496410BA3BBD6B26"
+			rewards: [{
+				id: "76F78693E2306EF9"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "39825C310E872C45"
 				item: { count: 1, id: "naturesaura:sky_ingot" }
@@ -554,6 +912,14 @@
 		{
 			dependencies: ["496410BA3BBD6B26"]
 			id: "275693C5B3745176"
+			rewards: [{
+				id: "6C22FCA1D78B5131"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -590,6 +956,14 @@
 					permission_level: 2
 					type: "command"
 				}
+				{
+					id: "76B582A0B4087254"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "171CBBBC9C209564"
@@ -601,12 +975,22 @@
 		{
 			dependencies: ["60E3FF8AA6269A42"]
 			id: "2E4928CB76229D67"
-			rewards: [{
-				command: "/astages add @s village"
-				id: "322BA76385A9B65B"
-				permission_level: 2
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/astages add @s village"
+					id: "322BA76385A9B65B"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "108A2D4B6053B354"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:the_nether"

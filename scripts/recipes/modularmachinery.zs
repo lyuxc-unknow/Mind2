@@ -341,7 +341,7 @@ DissolutionChamber.addRecipe(<item:modular_machinery_reborn:controller>.withJson
 ],400,<fluid:mind:industrial_lubricants> * 2000);
 
 <recipetype:extendedcrafting:table>.addShaped("596cb57f-1524-4950-8a10-0c0e03d6976d", 3, <item:modular_machinery_reborn:controller>.withJsonComponent(<componenttype:modular_machinery_reborn:machine>, "mind:flux_accelerator"), [
-	[<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>], 
+	[<item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:industrialforegoing:ether_gas_bucket>.transformReplace(<item:minecraft:bucket>), <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>], 
 	[<item:mekanism:hdpe_sheet>, <item:mind:space_ice>, <item:mind:space_ice>, <item:mind:space_ice>, <item:mind:space_ice>, <item:mind:space_ice>, <item:mekanism:hdpe_sheet>], 
 	[<item:mekanism:hdpe_sheet>, <item:mind:space_ice>, <item:draconicevolution:draconium_core>, <item:draconicevolution:draconium_nugget>, <item:draconicevolution:draconium_core>, <item:mind:space_ice>, <item:mekanism:hdpe_sheet>], 
 	[<item:mekanism:hdpe_sheet>, <item:mind:space_ice>, <item:draconicevolution:draconium_nugget>, <item:modular_machinery_reborn:casing_plain>, <item:draconicevolution:draconium_nugget>, <item:mind:space_ice>, <item:mekanism:hdpe_sheet>], 

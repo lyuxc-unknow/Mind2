@@ -40,7 +40,9 @@ val removeItem as IItemStack[] = [
     <item:industrialforegoing:hydroponic_bed>,
     <item:industrialforegoing:iron_gear>,
     <item:industrialforegoing:gold_gear>,
-    <item:industrialforegoing:diamond_gear>
+    <item:industrialforegoing:diamond_gear>,
+    <item:industrialforegoing:hydroponic_simulation_processor>,
+    <item:industrialforegoing:wither_builder>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -213,6 +215,16 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<tag:item:c:plastics>, <item:minecraft:dirt>, <tag:item:c:plastics>], 
         [<item:minecraft:iron_hoe>, <item:industrialforegoing:fertilizer>, <item:minecraft:iron_hoe>], 
         [<tag:item:c:gears/gold>, <item:mekanism:steel_casing>, <tag:item:c:gears/gold>]
+    ],
+    <item:industrialforegoing:hydroponic_simulation_processor>.withJsonComponent(<componenttype:industrialforegoing:hydroponic_simulation_processor>, {}): [
+        [<tag:item:c:plastics>, <item:minecraft:comparator>, <tag:item:c:plastics>], 
+        [<item:minecraft:observer>, <item:minecraft:repeater>, <item:minecraft:observer>], 
+        [<tag:item:c:plastics>, <item:advanced_ae:quantum_storage_component>, <tag:item:c:plastics>]
+    ],
+    <item:industrialforegoing:wither_builder>: [
+        [<tag:item:c:plastics>, <item:minecraft:nether_star>, <tag:item:c:plastics>], 
+        [<item:minecraft:wither_skeleton_skull>, <item:industrialforegoing:machine_frame_advanced>, <item:minecraft:wither_skeleton_skull>], 
+        [<item:minecraft:soul_sand>, <item:minecraft:soul_sand>, <item:minecraft:soul_sand>]
     ]
 };
 

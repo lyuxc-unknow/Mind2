@@ -16,6 +16,14 @@ ServerEvents.recipes(event => {
         .requireChemical("200x mekanism:antimatter")
         .requireEnergyPerTick(1000)
 
+    custommachinery.custom_machine("custommachinery:antimatter_fusion_converter", 600)
+        .produceItem("draconicevolution:large_chaos_frag")
+        .requireItem('4x minecraft:dragon_breath')
+        .requireItem('8x minecraft:prismarine_shard')
+        .requireItem("minecraft:dragon_egg")
+        .requireChemical("5x mekanism:antimatter")
+        .requireEnergyPerTick(10000)
+
     custommachinery.custom_machine("custommachinery:antimatter_fusion_converter", 200)
         .produceItem("minecraft:wither_skeleton_skull", "output")
         .requireItem("minecraft:skeleton_skull")

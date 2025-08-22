@@ -74,19 +74,6 @@ LycheeRecipeManager.addRecipe(<recipetype:lychee:random_block_ticking>, new Lych
     .condition(LycheeConditions.not(LycheeConditions.block(<block:minecraft:podzol>, new BlockPos(0,-1,0))))
     .post([LycheePosts.placeBlock(<block:minecraft:air>), LycheePosts.dropItem(<item:mind:annihilation_dye_with_dirt>)])
 );
-val unbreakableBook = <item:minecraft:enchanted_book>.withJsonComponent(<componenttype:minecraft:stored_enchantments>, {levels: {"minecraft:unbreaking": 1}});
-
-craftingTable.addShaped("unbreakable_iron_aiot",<item:actuallyadditions:iron_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),[
-    [<item:naturesaura:sky_ingot>,unbreakableBook,<item:naturesaura:sky_ingot>],
-    [unbreakableBook,<item:actuallyadditions:iron_aiot>,unbreakableBook],
-    [<item:naturesaura:sky_ingot>,unbreakableBook,<item:naturesaura:sky_ingot>]
-]);
-
-craftingTable.addShaped("unbreakable_netherite_aiot",<item:actuallyadditions:netherite_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),[
-    [<item:minecraft:netherite_ingot>,unbreakableBook,<item:minecraft:netherite_ingot>],
-    [unbreakableBook,<item:actuallyadditions:iron_aiot>.withJsonComponent(<componenttype:minecraft:unbreakable>, {}).without(<componenttype:minecraft:max_stack_size>),unbreakableBook],
-    [<item:minecraft:netherite_ingot>,unbreakableBook,<item:minecraft:netherite_ingot>]
-]);
 
 <recipetype:extendedcrafting:table>.addShaped("b0fd9b0a-41cc-4958-8ec7-4f4d3dc04871", 1, <item:mind:conversion_media> * 2, [
 	[<item:projecte:high_covalence_dust> * 2, <item:projecte:medium_covalence_dust> * 4, <item:projecte:low_covalence_dust> * 8], 

@@ -8,3 +8,9 @@ craftingTable.remove(<item:sgjourney:classic_stargate_base_block>);
 	[<item:sgjourney:communication_crystal>, <item:sgjourney:refined_naquadah>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:naquadah_alloy>, <item:sgjourney:refined_naquadah>, <item:extendedcrafting:crystaltine_ingot>], 
 	[<item:sgjourney:transfer_crystal>, <item:sgjourney:control_crystal>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:sgjourney:refined_naquadah>, <item:extendedcrafting:crystaltine_ingot>, <item:extendedcrafting:crystaltine_ingot>]
 ]);
+
+craftingTable.removeByName("sgjourney:naquadah_alloy");
+craftingTable.addShapeless("naquadah_alloy",<item:sgjourney:naquadah_alloy>,[
+	<item:twilightforest:knightmetal_ingot>,
+	<item:sgjourney:raw_naquadah>
+]);

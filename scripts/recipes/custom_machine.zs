@@ -4,13 +4,13 @@
 	[<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]
 ]);
 
-<recipetype:extendedcrafting:table>.addShaped("f901c48e-5975-40f2-a1ea-e2079314570b", 3, <item:custommachinery:custom_machine_item>.withJsonComponent(<componenttype:custommachinery:machine>, "custommachinery:high_precision_crushe"), [
+<recipetype:extendedcrafting:table>.addShaped("467d43d3-1d60-4039-8362-d1c2fb723405", 3, <item:custommachinery:custom_machine_item>.withJsonComponent(<componenttype:custommachinery:machine>, "custommachinery:high_precision_crushe"), [
 	[<item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>], 
-	[<item:psi:ivory_psimetal>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:psi:ivory_psimetal>], 
+	[<item:psi:ivory_psimetal>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:psi:ivory_psimetal>], 
 	[<item:psi:ivory_psimetal>, <item:immersiveengineering:grindingdisk>, <item:enderio:dark_bimetal_gear>, <item:pneumaticcraft:compressed_iron_gear>, <item:enderio:dark_bimetal_gear>, <item:immersiveengineering:grindingdisk>, <item:psi:ivory_psimetal>], 
 	[<item:psi:ivory_psimetal>, <item:immersiveengineering:grindingdisk>, <item:mekanism:advanced_crushing_factory>, <item:modular_machinery_reborn:casing_gearbox>, <item:mekanism:advanced_crushing_factory>, <item:immersiveengineering:grindingdisk>, <item:psi:ivory_psimetal>], 
 	[<item:psi:ivory_psimetal>, <item:immersiveengineering:grindingdisk>, <item:enderio:dark_bimetal_gear>, <item:pneumaticcraft:compressed_iron_gear>, <item:enderio:dark_bimetal_gear>, <item:immersiveengineering:grindingdisk>, <item:psi:ivory_psimetal>], 
-	[<item:psi:ivory_psimetal>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:psi:ivory_psimetal>], 
+	[<item:psi:ivory_psimetal>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:advanced_ae:quantum_alloy_plate>, <item:psi:ivory_psimetal>], 
 	[<item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>, <item:psi:ivory_psimetal>]
 ]);
 

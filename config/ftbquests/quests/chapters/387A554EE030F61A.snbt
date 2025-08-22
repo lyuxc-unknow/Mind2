@@ -10,6 +10,14 @@
 		{
 			dependencies: ["1ED97B5D1158A7B2"]
 			id: "09A2987347644BD8"
+			rewards: [{
+				id: "1013A765FC9C1AA7"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7BE340923C2FFED1"
@@ -35,6 +43,14 @@
 		{
 			dependencies: ["09A2987347644BD8"]
 			id: "5A14962848414E56"
+			rewards: [{
+				id: "009300259B53EFCD"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AD7872C2DC77805"
 				item: { count: 1, id: "twilightforest:naga_trophy" }
@@ -46,6 +62,14 @@
 		{
 			dependencies: ["5A14962848414E56"]
 			id: "47F886D17E9C60BD"
+			rewards: [{
+				id: "3F2B4AE90DD5DFC6"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "06B9ED439A5A2989"
 				item: { count: 1, id: "twilightforest:lich_trophy" }
@@ -57,6 +81,14 @@
 		{
 			dependencies: ["47F886D17E9C60BD"]
 			id: "0220DA1E562E7728"
+			rewards: [{
+				id: "46F55023FA6FDF80"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6261C4C1F9E3CF1B"
 				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
@@ -68,6 +100,14 @@
 		{
 			dependencies: ["0220DA1E562E7728"]
 			id: "6A35245DEA56F250"
+			rewards: [{
+				id: "0C1DE39FBED53F22"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C3BE85EAEF8AE97"
 				item: { count: 1, id: "twilightforest:hydra_trophy" }
@@ -79,6 +119,14 @@
 		{
 			dependencies: ["6A35245DEA56F250"]
 			id: "253DEC9E07B148D8"
+			rewards: [{
+				id: "2709C1285CB1950B"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C7195918E381864"
 				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
@@ -90,6 +138,14 @@
 		{
 			dependencies: ["253DEC9E07B148D8"]
 			id: "204CC61E3BDD0969"
+			rewards: [{
+				id: "3715B532142021D6"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A89D2FA8B9977EB"
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
@@ -101,6 +157,14 @@
 		{
 			dependencies: ["204CC61E3BDD0969"]
 			id: "2AD0420D05E27B69"
+			rewards: [{
+				id: "24ACE0D890E5DC57"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DF4F443731BB3C9"
 				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
@@ -112,6 +176,14 @@
 		{
 			dependencies: ["2AD0420D05E27B69"]
 			id: "07BC08A298A477E4"
+			rewards: [{
+				id: "0B3E5F94E53B1C0D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0376494C42D0CEE1"
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
@@ -123,6 +195,14 @@
 		{
 			dependencies: ["5A14962848414E56"]
 			id: "30D1058E0EB7E106"
+			rewards: [{
+				id: "5D95AF5B0F2D59CA"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "78B2D7305E40E9E3"
 				item: { count: 7, id: "twilightforest:naga_scale" }
@@ -134,6 +214,14 @@
 		{
 			dependencies: ["2AD0420D05E27B69"]
 			id: "716209897E9AC7B6"
+			rewards: [{
+				id: "598F0D7FFCEE87E0"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "40B72D27F6D137D4"
 				item: { count: 1, id: "twilightforest:alpha_yeti_fur" }
@@ -145,6 +233,14 @@
 		{
 			dependencies: ["204CC61E3BDD0969"]
 			id: "7A73B75B6E8D7C80"
+			rewards: [{
+				id: "519C8BFB9DB9E1E8"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A1C5BB6A7A5C320"
 				item: { count: 1, id: "twilightforest:fiery_tears" }
@@ -156,6 +252,14 @@
 		{
 			dependencies: ["0220DA1E562E7728"]
 			id: "5C190DBF704FB204"
+			rewards: [{
+				id: "61385F1F510AFB2D"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D2EA940FB48BAAA"
 				item: { count: 1, id: "twilightforest:meef_stroganoff" }
@@ -167,6 +271,14 @@
 		{
 			dependencies: ["6A35245DEA56F250"]
 			id: "50CC0DAAF61AE531"
+			rewards: [{
+				id: "785C0D896C7915E8"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5586782052C74D59"
 				item: { count: 1, id: "twilightforest:fiery_blood" }
@@ -178,6 +290,14 @@
 		{
 			dependencies: ["47F886D17E9C60BD"]
 			id: "7A9DE17977807602"
+			rewards: [{
+				id: "5B243036FC916F55"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "57CF04822875C2DF"
 				item: { count: 1, id: "twilightforest:exanimate_essence" }
@@ -189,6 +309,14 @@
 		{
 			dependencies: ["253DEC9E07B148D8"]
 			id: "69B20A5C77ECFBF4"
+			rewards: [{
+				id: "2F543E4D8528F3BB"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "46BB9C3B6CF4A7E9"
 				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
@@ -200,6 +328,14 @@
 		{
 			dependencies: ["66B24848368CEC98"]
 			id: "6C601368725F0051"
+			rewards: [{
+				id: "02D3C7320C8CB2D0"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				entity: "twilightforest:giant_miner"
 				id: "39A74BB880C3F63D"
@@ -212,6 +348,14 @@
 		{
 			dependencies: ["07BC08A298A477E4"]
 			id: "66B24848368CEC98"
+			rewards: [{
+				id: "3ADBAAA8E32867FF"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3FE894F02E056ED7"
 				item: { count: 1, id: "twilightforest:magic_beans" }
@@ -223,6 +367,14 @@
 		{
 			dependencies: ["6C601368725F0051"]
 			id: "0AFD6F26F158952F"
+			rewards: [{
+				id: "1469C730E0B71874"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "20B29A6183DE1722"
 				item: { count: 1, id: "twilightforest:lamp_of_cinders" }
@@ -234,6 +386,14 @@
 		{
 			dependencies: ["0AFD6F26F158952F"]
 			id: "4E8EF65B60DCD5C4"
+			rewards: [{
+				id: "05CE6A388A9D4199"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C904824E792652D"
 				structure: "twilightforest:final_castle"
@@ -245,23 +405,33 @@
 		{
 			dependencies: ["0AFD6F26F158952F"]
 			id: "5D1B56F73DF1B274"
-			rewards: [{
-				id: "72165EA83084DEFF"
-				item: {
-					components: {
-						"minecraft:enchantments": {
-							levels: {
-								"minecraft:sharpness": 100
-								"minecraft:unbreaking": 255
+			rewards: [
+				{
+					id: "72165EA83084DEFF"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:sharpness": 100
+									"minecraft:unbreaking": 255
+								}
 							}
+							"minecraft:unbreakable": { }
 						}
-						"minecraft:unbreakable": { }
+						count: 1
+						id: "twilightforest:glass_sword"
 					}
-					count: 1
-					id: "twilightforest:glass_sword"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "798EDA8451659F51"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "twilight_forest_final_boss:castle_keeper"
 				id: "3835898DC08372FC"

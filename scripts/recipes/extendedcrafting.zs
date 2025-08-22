@@ -8,7 +8,8 @@ val removeItem as IItemStack[] = [
     <item:extendedcrafting:elite_table>,
     <item:extendedcrafting:ender_crafter>,
     <item:extendedcrafting:crafting_core>,
-    <item:extendedcrafting:pedestal>
+    <item:extendedcrafting:pedestal>,
+    <item:extendedcrafting:elite_component>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -22,10 +23,14 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:enderio:guardian_diode>, <item:extendedcrafting:frame>, <item:enderio:sentient_ender>], 
         [<item:extendedcrafting:black_iron_ingot>, <item:enderio:frank_n_zombie>, <item:extendedcrafting:black_iron_ingot>]
     ],
-    <item:extendedcrafting:pedestal>: [
-        [<item:minecraft:air>,,<item:minecraft:air>],
-        [],
-        []
+    <item:extendedcrafting:pedestal> * 3: [
+        [<item:minecraft:air>,<item:twilightforest:fiery_ingot>,<item:minecraft:air>],
+        [<item:minecraft:air>,<item:extendedcrafting:black_iron_ingot>,<item:minecraft:air>],
+        [<item:extendedcrafting:black_iron_ingot>,<item:twilightforest:carminite_block>,<item:extendedcrafting:black_iron_ingot>]
+    ],
+    <item:extendedcrafting:elite_component>: [
+        [<item:extendedcrafting:luminessence>,<item:extendedcrafting:black_iron_slate>],
+        [<item:extendedcrafting:crystaltine_ingot>,<item:extendedcrafting:crystaltine_ingot>]
     ]
 };
 

@@ -19,7 +19,7 @@ val removeItem as IItemStack[] = [
     <item:create:white_sail>,
     <item:create:water_wheel>,
     <item:create:windmill_bearing>,
-    <item:create:propeller>
+    <item:create:mechanical_crafter>
 ];
 
 val shapedRecipes as IIngredient[][][IItemStack] = {
@@ -33,10 +33,10 @@ val shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:immersiveengineering:waterwheel_segment>,<item:create:shaft>,<item:immersiveengineering:waterwheel_segment>],
         [<tag:item:minecraft:planks>,<item:immersiveengineering:waterwheel_segment>,<tag:item:minecraft:planks>]
     ],
-    <item:create:propeller>: [
-        [<item:minecraft:air>, <tag:item:c:plates/steel>, <item:minecraft:air>], 
-        [<tag:item:c:plates/steel>, <item:create:andesite_alloy>, <tag:item:c:plates/steel>], 
-        [<item:minecraft:air>, <tag:item:c:plates/steel>, <item:minecraft:air>]
+    <item:create:mechanical_crafter>: [
+        [<item:immersiveengineering:electron_tube>,<item:create:electron_tube>,<item:immersiveengineering:electron_tube>],
+        [<item:minecraft:air>,<item:create:brass_casing>,<item:minecraft:air>],
+        [<item:minecraft:air>,<tag:item:c:player_workstations/crafting_tables>,<item:minecraft:air>]
     ]
 };
 

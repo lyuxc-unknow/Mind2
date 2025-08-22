@@ -19,3 +19,10 @@ for item in removeItem {
 <recipetype:extendedcrafting:combination>.addRecipe("6d65f814-ea6d-4159-a5d1-c3bbc771801c", <item:draconicevolution:basic_crafting_injector> * 4, <item:minecraft:iron_block>, [
 	<item:stellaris:tharsite_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:corronium_ingot>, <item:enderio:octadic_capacitor>, <item:stellaris:corronium_ingot>, <item:stellaris:corronium_ingot>, <item:draconicevolution:draconium_core>, <item:enderio:octadic_capacitor>, <item:stellaris:tharsite_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:corronium_ingot>, <item:enderio:octadic_capacitor>, <item:stellaris:tharsite_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:neptunium_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:tharsite_ingot>, <item:stellaris:neptunium_ingot>
 ],200000,10000);
+
+DEFusionCrafting.addRecipe(<item:draconicevolution:draconium_core>,<item:psi:psigem>,[
+    DEIngredientFeat.of(<item:apothic_enchanting:infused_breath>),
+    DEIngredientFeat.of(<item:draconicevolution:draconium_ingot>),
+    DEIngredientFeat.of(<item:draconicevolution:draconium_ingot>),
+    DEIngredientFeat.of(<item:draconicevolution:draconium_ingot>)
+],10000,"draconium");

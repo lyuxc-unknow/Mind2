@@ -10,12 +10,22 @@
 		{
 			dependencies: ["47F886D17E9C60BD"]
 			id: "08247DB65DC8619E"
-			rewards: [{
-				command: "/astages add @s the_end"
-				id: "2A3A06AAB4B3157F"
-				permission_level: 2
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/astages add @s the_end"
+					id: "2A3A06AAB4B3157F"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "2B97C793A259DDE9"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "403C805891CF74E2"
 				type: "checkmark"
@@ -26,6 +36,14 @@
 		{
 			dependencies: ["08247DB65DC8619E"]
 			id: "6CC26FF036995412"
+			rewards: [{
+				id: "7C96B4C07B001085"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "664C74049EE9A396"
 				item: { count: 1, id: "naturesaura:end_flower" }
@@ -37,6 +55,14 @@
 		{
 			dependencies: ["6CC26FF036995412"]
 			id: "0EC0FA591101BB1D"
+			rewards: [{
+				id: "30AADBE9154379C6"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D5D7D09AB12A78E"
 				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
@@ -48,6 +74,14 @@
 		{
 			dependencies: ["0EC0FA591101BB1D"]
 			id: "28400FCF1F90567B"
+			rewards: [{
+				id: "5B5CF61F416A7084"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "2CB86DF3B6892C5B"
 				item: { count: 1, id: "extendedcrafting:elite_table" }
@@ -59,6 +93,14 @@
 		{
 			dependencies: ["28400FCF1F90567B"]
 			id: "69E0FF1AB908C65E"
+			rewards: [{
+				id: "3E6BFBB1C8481FFB"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 9L
@@ -78,6 +120,14 @@
 		{
 			dependencies: ["69E0FF1AB908C65E"]
 			id: "57284BACA9594481"
+			rewards: [{
+				id: "6D1A889CBD8BB48A"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D77ED0D365A1215"
 				item: { count: 1, id: "mind:space_ice" }
@@ -89,6 +139,14 @@
 		{
 			dependencies: ["57284BACA9594481"]
 			id: "06C5EBFC836DAC6F"
+			rewards: [{
+				id: "1BB318E1728E52D6"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F5C15C2047BE4E8"
 				item: { components: { "custommachinery:machine": "custommachinery:antimatter_fusion_converter" }, count: 1, id: "custommachinery:custom_machine_item" }
@@ -100,6 +158,14 @@
 		{
 			dependencies: ["06C5EBFC836DAC6F"]
 			id: "13278093CF529C9B"
+			rewards: [{
+				id: "53CF33C0FA56EAC5"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "191337C2EDABD1AD"
 				item: { count: 1, id: "draconicevolution:draconium_core" }
@@ -111,6 +177,14 @@
 		{
 			dependencies: ["13278093CF529C9B"]
 			id: "6218BB5FE9581B2A"
+			rewards: [{
+				id: "29D780280C95F7A2"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 12L
@@ -130,6 +204,14 @@
 		{
 			dependencies: ["6218BB5FE9581B2A"]
 			id: "746385B0C60DDE70"
+			rewards: [{
+				id: "0A17429EB258430B"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				count: 54L
 				id: "3C4F23B554952935"
@@ -142,6 +224,14 @@
 		{
 			dependencies: ["746385B0C60DDE70"]
 			id: "7443AFF28E8316EA"
+			rewards: [{
+				id: "4624D52705764902"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4243194904AB4634"
 				item: { components: { "projecte:charge": 4 }, count: 1, id: "projecte:philosophers_stone" }
@@ -153,6 +243,14 @@
 		{
 			dependencies: ["7443AFF28E8316EA"]
 			id: "38D5B61A07A85201"
+			rewards: [{
+				id: "4173FA8E722425FA"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "09FB74A9E867B2A5"
 				item: { count: 1, id: "mind:conversion_media" }
@@ -164,6 +262,14 @@
 		{
 			dependencies: ["38D5B61A07A85201"]
 			id: "7689C2E3D7599E44"
+			rewards: [{
+				id: "7B3B1DC32C9D6139"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D9E2E210F680A49"
 				item: { count: 1, id: "projecte:dark_matter" }
@@ -175,6 +281,14 @@
 		{
 			dependencies: ["7689C2E3D7599E44"]
 			id: "544E5CCB4862D8A7"
+			rewards: [{
+				id: "25CCB221C07E3A05"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "027E3E3F71370421"
 				item: { count: 1, id: "projecte:transmutation_table" }
@@ -186,6 +300,14 @@
 		{
 			dependencies: ["544E5CCB4862D8A7"]
 			id: "2896B3CFCF73BD92"
+			rewards: [{
+				id: "7BB9BC90B1E0CAAD"
+				item: {
+					count: 1
+					id: "mind:mind_coin"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				id: "490E1478F5BE002F"
@@ -372,6 +494,14 @@
 					id: "6DD037ECE579D9F8"
 					permission_level: 2
 					type: "command"
+				}
+				{
+					id: "11D0617AD256F849"
+					item: {
+						count: 1
+						id: "mind:mind_coin"
+					}
+					type: "item"
 				}
 			]
 			size: 2.0d
